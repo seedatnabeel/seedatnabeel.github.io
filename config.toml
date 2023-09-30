@@ -1,0 +1,12 @@
+baseURL = 'https://alanjeffares.github.io'
+languageCode = 'en-us'
+title = 'Nabeel Seedat'
+theme = "hugo-xmin"
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[Params]
+  description = "Nabeel Seedat' personal homepage."
+  footer = "[[twitter](https://twitter.com/NabeelSeedat01)] | [[scholar](https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ)] | [[github](https://github.com/seedatnabeel)] | [[linkedin](https://linkedin.com/in/nabeel-seedat)]"
+  

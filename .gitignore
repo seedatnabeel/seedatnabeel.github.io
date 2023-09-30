@@ -1,0 +1,47 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# General
+.DS_Store
+node_modules/
+npm-debug.log
+
+# Production
+/dist/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+
+# /resources/_gen/
+hugo_stats.json
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.prettierrc
+.prettierignore

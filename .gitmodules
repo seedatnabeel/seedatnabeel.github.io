@@ -1,0 +1,6 @@
+[submodule "themes/robotico"]
+	path = themes/robotico
+	url = https://github.com/wileymc/hugo-theme-robotico
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = https://github.com/yihui/hugo-xmin

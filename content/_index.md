@@ -46,16 +46,13 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 * <span class="date">June 2023</span> &#8594; Awarded the best research poster presentation at the [Future of Data-Centric AI conference](https://future.snorkel.ai/)
 
-* <span class="date">May 2023</span> &#8594; New paper accepted to [**ICML2023**](https://icml.cc/Conferences/2023) on transportable structure learning [[paper](https://arxiv.org/abs/2206.06354)]. 
+* <span class="date">May 2023</span> &#8594; Paper accepted to [**ICML2023**](https://icml.cc/Conferences/2023) on transportable structure learning [[paper](https://arxiv.org/abs/2206.06354)]. 
 
 * <span class="date">March 2023</span> &#8594; Our Data-Centric AI checklist called DC-Check was featured by [MarkTechPost](https://www.marktechpost.com/2023/03/01/cambridge-and-ucla-researchers-introduce-dc-check-a-new-data-centric-ai-checklist-style-framework-to-guide-the-development-of-reliable-machine-learning-systems/) and the [Montreal AI Ethics Institute](https://montrealethics.ai/dc-check-a-data-centric-ai-checklist-to-guide-the-development-of-reliable-machine-learning-systems/) (see the DC-Check [paper](https://arxiv.org/abs/2211.05764)). 
-
 
 * <span class="date"> Jan 2023</span> &#8594; New paper accepted to [**AISTATS2023**](https://aistats.org/aistats2023/) on improving conformal prediction w/ self-supervised learning [[paper](https://proceedings.mlr.press/v206/seedat23a.html)]. 
 
 * <span class="date"> Oct 2022</span> &#8594; Excited to be giving talks on Data-Centric AI at AstraZeneca, Queen Mary University of London and the University of Cape Town!
-
-* <span class="date"> Sept 2022</span> &#8594; _New paper accepted to [**NeurIPS2022**](https://neurips.cc/) on data-centric AI to audit training datasets for tabular, images and text [[paper](https://arxiv.org/abs/2210.13043)]. Looking forward to presenting together with my co-authors!
 
 * <span class="date"> Sept 2022</span> &#8594; _New paper accepted to [**NeurIPS2022**](https://neurips.cc/) on data-centric AI to audit training datasets for tabular, images and text [[paper](https://arxiv.org/abs/2210.13043)]. Looking forward to presenting together with my co-authors!
 

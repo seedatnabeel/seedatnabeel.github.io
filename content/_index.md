@@ -11,7 +11,9 @@ description: "Nabeel Seedat"
     <img src="/images/nabeel.jpg" alt="profile" />
   </div>
 
-Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research looks at: **Data-Centric AI**, **Uncertainty Quantification** and **Synthetic Data** . 
+Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests are data modality agnostic, focussing on: **Data-Centric AI**, **Uncertainty Quantification** and **Synthetic Data** . 
+
+Since data is the fuel for ML, my research seeks to develop systematic data-centric approaches applicable across different data modalities including tabular, image & text --- with the goal of making ML systems more reliable & trustworthy 🦾, whilst also improving both model performance & training efficiency 🚀.
 
 I hold an Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). Before starting my PhD I have spent time working on production ML systems as a Data Scientist focussed on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and an ML Engineer focussed on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 
@@ -40,7 +42,7 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 * <span class="date">Sep 2023</span> &#8594; On September 11 I gave a talk on _Data-Centric AI_ at the AI and Machine Learning in Healthcare Summer School organised by the Cambridge Center for AI in Medicine (CCAIM). Have a look at the fantastic program here: https://ccaim.cam.ac.uk/program/.
 
-* <span class="date">Aug 2023</span> &#8594; _Data-Centric AI tutorial @ [**IJCAI2023**](https://ijcai-23.org/tutorials/)!_ Fantastic experience engaging with the community!
+* <span class="date">Aug 2023</span> &#8594; _Presented a tutorial on Data-Centric AI@ [**IJCAI2023**](https://ijcai-23.org/tutorials/)!_ together w/ Mihaela van der Schaar. It was a fantastic experience to engage with the community about this important research area!
 
 * <span class="date">July 2023</span> &#8594; Selected by the Mail & Guardian in the [Top 200, Young South Africas's](https://mg.co.za/200YoungSouthAfricans/2023/nabeel-seedat/) for 2023! 🇿🇦
 
@@ -73,36 +75,36 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 ### Top ML/AI conferences
 
-
+* 3 NeurIPS 2023 papers coming soon...
 * <mark>N.Seedat*</mark>, A.Jeffares*, F.Imrie, M. van der Schaar. ``Improving adaptive conformal prediction using self-supervised learning.'' **AISTATS 2023**  [[paper](https://proceedings.mlr.press/v206/seedat23a/seedat23a.pdf)]
 * J.Berrevoets, <mark>N.Seedat</mark>, F.Imrie  M. van Der Schaar. ``Differentiable and transportable structure learning.'' **ICML 2023** [[paper](https://proceedings.mlr.press/v202/berrevoets23a/berrevoets23a.pdf)]
 * <mark>N.Seedat</mark>, J.Crabbe, I.Bica, M. van der Schaar. ``Data-IQ: Characterizing subgroups with heterogeneous outcomes in tabular data.'' **NeurIPS 2022** [[paper](https://arxiv.org/pdf/2210.13043.pdf)]
 * <mark>N.Seedat</mark>, J.Crabbe, M. van der Schaar. ``Data-SUITE: Data-Centric identification of in-distribution incongruous examples.'' **ICML 2022 (Spotlight)** [[paper](https://icml.cc/virtual/2022/spotlight/17080)]
 * <mark>N.Seedat*</mark>, F.Imrie*, A.Bellot, Z.Qian, M. van der Schaar. ``Continuous-time modeling of counterfactual outcomes using neural controlled differential equations.'' **ICML 2022** [[paper](https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf)]
 * H.Sun, B.van Breugel, J.Crabb\'e, <mark>N.Seedat</mark>, M. van der Schaar. ``DAUX: a density-based approach for uncertainty explanations.'' **ICML 2022 - Workshop on Distribution-Free Uncertainty Quantification.**  [[paper](https://arxiv.org/pdf/2207.05161.pdf)]
-* <mark>N.Seedat</mark>, ``MCU-Net: A framework towards uncertainty representations for decision support system patient referrals in healthcare contexts.'' **KDD 2020, Spotlight Presentation: Workshop on Applied Data Science for Healthcare \& ICML 2020: Uncertainty \& Robustness in Deep Learning Workshop.**  [[paper](https://arxiv.org/abs/2007.03995)]
-* <mark>N.Seedat</mark> and C.Kanan, ``Towards calibrated and scalable uncertainty representations for neural networks.'' **NeurIPS 2019 - 4th Workshop on Bayesian Deep Learning.**  [[paper](https://arxiv.org/abs/1911.00104)]
-* <mark>N.Seedat</mark> and V.Aharonson, ``Machine learning discrimination of Parkinson’s Disease stages from walker-mounted sensors data.'' **AAAI 2020 - International Workshop on Health Intelligence and Studies  in Computational Intelligence (Springer), 2020**. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4#:~:text=The%20results%20indicate%20a%20feasibility,quantitative%20assessment%20of%20PD%20progression.)]
+* <mark>N.Seedat</mark>. ``MCU-Net: A framework towards uncertainty representations for decision support system patient referrals in healthcare contexts.'' **KDD 2020, Spotlight Presentation: Workshop on Applied Data Science for Healthcare \& ICML 2020: Uncertainty \& Robustness in Deep Learning Workshop.**  [[paper](https://arxiv.org/abs/2007.03995)]
+* <mark>N.Seedat</mark> and C.Kanan. ``Towards calibrated and scalable uncertainty representations for neural networks.'' **NeurIPS 2019 - 4th Workshop on Bayesian Deep Learning.**  [[paper](https://arxiv.org/abs/1911.00104)]
+* <mark>N.Seedat</mark> and V.Aharonson. ``Machine learning discrimination of Parkinson’s Disease stages from walker-mounted sensors data.'' **AAAI 2020 - International Workshop on Health Intelligence and Studies  in Computational Intelligence (Springer), 2020**. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4#:~:text=The%20results%20indicate%20a%20feasibility,quantitative%20assessment%20of%20PD%20progression.)]
 
 ### Journals, other conferences, pre-prints
 
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems.'' arXiv preprint, 2023.  [[paper](https://arxiv.org/abs/2211.05764)]
 * E.Heremans, <mark>N.Seedat</mark>, B.Buyse, D.Testelmans, M. van der Schaar, \& M. De Vos. ``U-PASS: an Uncertainty-guided deep learning Pipeline for Automated Sleep Staging.'' arXiv preprint, arXiv:2306.04663, 2023.  [[paper](https://arxiv.org/abs/2306.04663)]
-* H.Liu*, <mark>N.Seedat*</mark> and J.Ive ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' arXiv preprint, arXiv:2205.14761, 2022.  [[paper](https://arxiv.org/abs/2205.14761)]
-* <mark>N.Seedat</mark> and V.Aharonson, ``Automated Machine Vision Enabled Detection of Movement Disorders from hand drawn spirals.'' IEEE International Conference on Health Informatics (IEEE ICHI), 2020.  [[paper](https://ieeexplore.ieee.org/document/9374333)]
-* <mark>N.Seedat</mark>, V.Aharonson and Y.Hamzany ``Automated and interpretable m-health discrimination of vocal cord pathology enabled by machine learning.'' IEEE Conference on Computer Science and Data Engineering, 2020.  [[paper](https://ieeexplore.ieee.org/document/9411529)]
-* V.Aharonson, <mark>N.Seedat</mark>, S.Korn, S.Baer, M.Postema, G.Yahalom, ''Automated stage discrimination of Parkinson’s Disease.'', BIO Integration Journal, 2020. [[paper](https://bio-integration.org/wp-content/uploads/2020/06/bioi20200006.pdf)]
-* <mark>N.Seedat</mark>, N.Sen, N.Naicker, K.Sharma, A. Almeida, G.Kalyansundaram, B.Mkwanazi, M.Velayudan, M. ``PEMS: Custom Neural Machine Translation System-Making subtitling of Portuguese TV shows and movies on the African continent work.'' IEEE ICECET, 2021.  [[paper](https://ieeexplore.ieee.org/document/9698428)]
-* <mark>N.Seedat</mark>, D.Beder, V.Aharonson and S.Dubowsky ``A comparison of footfall detection algorithms from walker mounted sensors data.'' IEEE EBBT, 2018.  [[paper](https://ieeexplore.ieee.org/document/8391456)]
-* V.Aharonson, <mark>N.Seedat</mark>, I.Schlesinger, A.McDonald, S.Dubowsky and A.Korczyn ``Feasibility of an instrumented walker to quantify treatment effects on Parkinson’s patient gait.'' IEEE EBBT, 2018.  [[paper](https://ieeexplore.ieee.org/document/8391457)]
-* <mark>N.Seedat</mark>, I.Mohamed and AK.Mohamed ``Custom Force Sensor and Sensory Feedback System to Enable Grip Control of a Robotic Prosthetic Hand.'' IEEE BioRob, 2018.  [[paper](https://ieeexplore.ieee.org/document/8487948)]
-* <mark>N.Seedat</mark> and A.van Wyk, ``Quadcopter Control using Intelligent Control.'' Deep Learning Indaba.  [[paper](https://www.researchgate.net/publication/325999949_Quadcopter_Control_using_Intelligent_Control_Methods)]
+* H.Liu*, <mark>N.Seedat*</mark> and J.Ive. ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' arXiv preprint, arXiv:2205.14761, 2022.  [[paper](https://arxiv.org/abs/2205.14761)]
+* <mark>N.Seedat</mark> and V.Aharonson. ``Automated Machine Vision Enabled Detection of Movement Disorders from hand drawn spirals.'' IEEE International Conference on Health Informatics (IEEE ICHI), 2020.  [[paper](https://ieeexplore.ieee.org/document/9374333)]
+* <mark>N.Seedat</mark>, V.Aharonson and Y.Hamzany. ``Automated and interpretable m-health discrimination of vocal cord pathology enabled by machine learning.'' IEEE Conference on Computer Science and Data Engineering, 2020.  [[paper](https://ieeexplore.ieee.org/document/9411529)]
+* V.Aharonson, <mark>N.Seedat</mark>, S.Korn, S.Baer, M.Postema, G.Yahalom. ''Automated stage discrimination of Parkinson’s Disease.'', BIO Integration Journal, 2020. [[paper](https://bio-integration.org/wp-content/uploads/2020/06/bioi20200006.pdf)]
+* <mark>N.Seedat</mark>, N.Sen, N.Naicker, K.Sharma, A. Almeida, G.Kalyansundaram, B.Mkwanazi, M.Velayudan. ``PEMS: Custom Neural Machine Translation System-Making subtitling of Portuguese TV shows and movies on the African continent work.'' IEEE ICECET, 2021.  [[paper](https://ieeexplore.ieee.org/document/9698428)]
+* <mark>N.Seedat</mark>, D.Beder, V.Aharonson and S.Dubowsky. ``A comparison of footfall detection algorithms from walker mounted sensors data.'' IEEE EBBT, 2018.  [[paper](https://ieeexplore.ieee.org/document/8391456)]
+* V.Aharonson, <mark>N.Seedat</mark>, I.Schlesinger, A.McDonald, S.Dubowsky and A.Korczyn. ``Feasibility of an instrumented walker to quantify treatment effects on Parkinson’s patient gait.'' IEEE EBBT, 2018.  [[paper](https://ieeexplore.ieee.org/document/8391457)]
+* <mark>N.Seedat</mark>, I.Mohamed and AK.Mohamed .``Custom Force Sensor and Sensory Feedback System to Enable Grip Control of a Robotic Prosthetic Hand.'' IEEE BioRob, 2018.  [[paper](https://ieeexplore.ieee.org/document/8487948)]
+* <mark>N.Seedat</mark> and A.van Wyk. ``Quadcopter Control using Intelligent Control.'' Deep Learning Indaba.  [[paper](https://www.researchgate.net/publication/325999949_Quadcopter_Control_using_Intelligent_Control_Methods)]
 
 ### Tutorials 
 
 * <mark>N.Seedat</mark>, I.Guyon, M. van der Schaar. ``Data-Centric AI for reliable and responsible AI: from theory to practice'' NeurIPS 2023 Tutorial.  
 
-* <mark>N.Seedat</mark> and M. van der Schaar, ``Data-Centric AI: Foundation, Frontiers and Applications.'' IJCAI 2023 Tutorial.
+* <mark>N.Seedat</mark> and M. van der Schaar. ``Data-Centric AI: Foundation, Frontiers and Applications.'' IJCAI 2023 Tutorial.
 
 
 ### Invited Talks

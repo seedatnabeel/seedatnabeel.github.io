@@ -13,7 +13,7 @@ description: "Nabeel Seedat"
 
 Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests are data modality agnostic, focussing on: **Data-Centric AI**, **Uncertainty Quantification** and **Synthetic Data** . 
 
-Since data is the fuel for ML, my research seeks to develop systematic data-centric approaches applicable across different data modalities including tabular, image & text --- with the goal of making ML systems more reliable & trustworthy 🦾, whilst also improving both model performance & training efficiency 🚀.
+Since data is the fuel for ML, my research seeks to develop systematic data-centric approaches applicable across different data modalities including tabular, image & text --- with the goal of making ML systems more reliable & trustworthy 🦾, whilst also improving both model performance & training efficiency 🚀. Most recently on LLMs!
 
 I hold an Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). Before starting my PhD I have spent time working on production ML systems as a Data Scientist focussed on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and an ML Engineer focussed on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 

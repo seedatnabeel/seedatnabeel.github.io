@@ -11,7 +11,7 @@ description: "Nabeel Seedat"
     <img src="/images/nabeel.jpg" alt="profile" />
   </div>
 
-Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests are data modality agnostic, focussing on: **Data-Centric AI**, **Uncertainty Quantification** and **Synthetic Data** . 
+Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests are data modality agnostic, focussing on: **Data-Centric AI**, **Uncertainty Quantification**, **Synthetic Data** & **Trustworthy ML**. 
 
 Since data is the fuel for ML, my research seeks to develop systematic data-centric approaches applicable across different data modalities including tabular, image & text --- with the goal of making ML systems more reliable & trustworthy 🦾, whilst also improving both model performance & training efficiency 🚀. Most recently on LLMs!
 

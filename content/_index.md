@@ -38,7 +38,7 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 * <span class="date">Oct 2023</span> &#8594; _Data-Centric AI Tutorial accepted to [**NeurIPS2023**](https://nips.cc/)!_ w/ Mihaela van der Schaar and Isabelle Guyon (Google Research). See you in New Orleans 🐊🎺🌶️
 
-* <span class="date">Oct 2023</span> &#8594; _Three papers accepted to [**NeurIPS2023**](https://nips.cc/)!_ Two papers on the main track and one on the D&B track. Camera-ready versions of our papers coming soon!
+* <span class="date">Oct 2023</span> &#8594; _Four papers accepted to [**NeurIPS2023**](https://nips.cc/)!_ Three papers on the main track and one on the D&B track. Camera-ready versions of our papers coming soon!
 
 * <span class="date">Sep 2023</span> &#8594; On September 11 I gave a talk on _Data-Centric AI_ at the AI and Machine Learning in Healthcare Summer School organised by the Cambridge Center for AI in Medicine (CCAIM). Have a look at the fantastic program here: https://ccaim.cam.ac.uk/program/.
 
@@ -75,13 +75,18 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 ### Top ML/AI conferences
 
-* 3 NeurIPS 2023 papers coming soon...
+* <mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``TRIAGE: Characterizing and auditing training data for
+improved regression.'' **NeurIPS 2023**  [[paper](https://openreview.net/pdf?id=eP6cDDwBNC)]
+* B.van Breugel*, <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
+model evaluation with synthetic test data.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2310.16524.pdf)]
+* L.Hansen*, <mark>N.Seedat</mark>, M. van der Schaar, A.Petrovic.  ``Reimagining Synthetic Data Generation through DataCentric AI: A Comprehensive Benchmark..'' **NeurIPS 2023 (D&B)**  [[paper](https://arxiv.org/pdf/2310.16981.pdf)]
+* H.Sun, B.van Breugel, J.Crabb\'e, <mark>N.Seedat</mark>, M. van der Schaar. ``What is Flagged in Uncertainty Quantification?
+Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2207.05161.pdf)]
 * <mark>N.Seedat*</mark>, A.Jeffares*, F.Imrie, M. van der Schaar. ``Improving adaptive conformal prediction using self-supervised learning.'' **AISTATS 2023**  [[paper](https://proceedings.mlr.press/v206/seedat23a/seedat23a.pdf)]
 * J.Berrevoets, <mark>N.Seedat</mark>, F.Imrie  M. van Der Schaar. ``Differentiable and transportable structure learning.'' **ICML 2023** [[paper](https://proceedings.mlr.press/v202/berrevoets23a/berrevoets23a.pdf)]
 * <mark>N.Seedat</mark>, J.Crabbe, I.Bica, M. van der Schaar. ``Data-IQ: Characterizing subgroups with heterogeneous outcomes in tabular data.'' **NeurIPS 2022** [[paper](https://arxiv.org/pdf/2210.13043.pdf)]
 * <mark>N.Seedat</mark>, J.Crabbe, M. van der Schaar. ``Data-SUITE: Data-Centric identification of in-distribution incongruous examples.'' **ICML 2022 (Spotlight)** [[paper](https://icml.cc/virtual/2022/spotlight/17080)]
 * <mark>N.Seedat*</mark>, F.Imrie*, A.Bellot, Z.Qian, M. van der Schaar. ``Continuous-time modeling of counterfactual outcomes using neural controlled differential equations.'' **ICML 2022** [[paper](https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf)]
-* H.Sun, B.van Breugel, J.Crabb\'e, <mark>N.Seedat</mark>, M. van der Schaar. ``DAUX: a density-based approach for uncertainty explanations.'' **ICML 2022 - Workshop on Distribution-Free Uncertainty Quantification.**  [[paper](https://arxiv.org/pdf/2207.05161.pdf)]
 * <mark>N.Seedat</mark>. ``MCU-Net: A framework towards uncertainty representations for decision support system patient referrals in healthcare contexts.'' **KDD 2020, Spotlight Presentation: Workshop on Applied Data Science for Healthcare \& ICML 2020: Uncertainty \& Robustness in Deep Learning Workshop.**  [[paper](https://arxiv.org/abs/2007.03995)]
 * <mark>N.Seedat</mark> and C.Kanan. ``Towards calibrated and scalable uncertainty representations for neural networks.'' **NeurIPS 2019 - 4th Workshop on Bayesian Deep Learning.**  [[paper](https://arxiv.org/abs/1911.00104)]
 * <mark>N.Seedat</mark> and V.Aharonson. ``Machine learning discrimination of Parkinson’s Disease stages from walker-mounted sensors data.'' **AAAI 2020 - International Workshop on Health Intelligence and Studies  in Computational Intelligence (Springer), 2020**. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4#:~:text=The%20results%20indicate%20a%20feasibility,quantitative%20assessment%20of%20PD%20progression.)]

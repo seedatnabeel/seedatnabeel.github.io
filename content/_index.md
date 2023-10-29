@@ -77,9 +77,9 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 * <mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``TRIAGE: Characterizing and auditing training data for
 improved regression.'' **NeurIPS 2023**  [[paper](https://openreview.net/pdf?id=eP6cDDwBNC)]
-* B.van Breugel*, <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
+* B.van Breugel*, <mark>N.Seedat*</mark>, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
 model evaluation with synthetic test data.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2310.16524.pdf)]
-* L.Hansen*, <mark>N.Seedat</mark>, M. van der Schaar, A.Petrovic.  ``Reimagining Synthetic Data Generation through DataCentric AI: A Comprehensive Benchmark..'' **NeurIPS 2023 (D&B)**  [[paper](https://arxiv.org/pdf/2310.16981.pdf)]
+* L.Hansen*, <mark>N.Seedat*</mark>, M. van der Schaar, A.Petrovic.  ``Reimagining Synthetic Data Generation through DataCentric AI: A Comprehensive Benchmark..'' **NeurIPS 2023 (D&B)**  [[paper](https://arxiv.org/pdf/2310.16981.pdf)]
 * H.Sun, B.van Breugel, J.Crabb\'e, <mark>N.Seedat</mark>, M. van der Schaar. ``What is Flagged in Uncertainty Quantification?
 Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2207.05161.pdf)]
 * <mark>N.Seedat*</mark>, A.Jeffares*, F.Imrie, M. van der Schaar. ``Improving adaptive conformal prediction using self-supervised learning.'' **AISTATS 2023**  [[paper](https://proceedings.mlr.press/v206/seedat23a/seedat23a.pdf)]

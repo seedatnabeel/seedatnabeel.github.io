@@ -36,7 +36,9 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 ## 🗞️ News 🗞️
 
-* <span class="date">Oct 2023</span> &#8594; Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
+* <span class="date">Jan 2024</span> &#8594; Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
+
+* <span class="date">Dec 2023</span> &#8594; DC-Check accepted to IEEE Transactions on AI!  Interested in Data-Centric AI, then checkout our paper Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities 😊 
 
 * <span class="date">Oct 2023</span> &#8594; _Data-Centric AI Tutorial accepted to [**NeurIPS2023**](https://nips.cc/)!_ w/ Mihaela van der Schaar and Isabelle Guyon (Google Research). See you in New Orleans 🐊🎺🌶️
 
@@ -98,7 +100,7 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 
 ### Journals, other conferences, pre-prints
 
-* <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems.'' arXiv preprint, 2023.  [[paper](https://arxiv.org/abs/2211.05764)]
+* <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities.'' IEEE Transactions on Artificial Intelligence, 2023.  [[paper](https://ieeexplore.ieee.org/abstract/document/10372382)]
 * E.Heremans, <mark>N.Seedat</mark>, B.Buyse, D.Testelmans, M. van der Schaar, \& M. De Vos. ``U-PASS: an Uncertainty-guided deep learning Pipeline for Automated Sleep Staging.'' arXiv preprint, arXiv:2306.04663, 2023.  [[paper](https://arxiv.org/abs/2306.04663)]
 * H.Liu*, <mark>N.Seedat*</mark> and J.Ive. ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' arXiv preprint, arXiv:2205.14761, 2022.  [[paper](https://arxiv.org/abs/2205.14761)]
 * <mark>N.Seedat</mark> and V.Aharonson. ``Automated Machine Vision Enabled Detection of Movement Disorders from hand drawn spirals.'' IEEE International Conference on Health Informatics (IEEE ICHI), 2020.  [[paper](https://ieeexplore.ieee.org/document/9374333)]

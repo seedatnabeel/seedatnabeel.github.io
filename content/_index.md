@@ -36,6 +36,8 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 ## 🗞️ News 🗞️
 
+* <span class="date">Oct 2023</span> &#8594; Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
+
 * <span class="date">Oct 2023</span> &#8594; _Data-Centric AI Tutorial accepted to [**NeurIPS2023**](https://nips.cc/)!_ w/ Mihaela van der Schaar and Isabelle Guyon (Google Research). See you in New Orleans 🐊🎺🌶️
 
 * <span class="date">Oct 2023</span> &#8594; _Four papers accepted to [**NeurIPS2023**](https://nips.cc/)!_ Three papers on the main track and one on the D&B track. Camera-ready versions of our papers coming soon!
@@ -75,9 +77,12 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 ### Top ML/AI conferences
 
+* <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Dissecting sample hardness: Fine-grained analysis of Hardness Characterization Methods.'' **ICLR 2024**  [[coming soon]()]
+* T.Liu, N.Astorga, <mark>N.Seedat</mark>, M. van der Schaar. ``Large Language Models to Enhance Bayesian Optimization.'' **ICLR 2024**  [[coming soon]()]
+* N. Huynh, J. Berrevoets,<mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``DAGnosis: Localized Identification of Data Inconsistencies using Structures.'' **AISTATS 2024**  [[coming soon]()]
 * <mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``TRIAGE: Characterizing and auditing training data for
 improved regression.'' **NeurIPS 2023**  [[paper](https://openreview.net/pdf?id=eP6cDDwBNC)]
-* B.van Breugel*, <mark>N.Seedat*</mark>, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
+* <mark>N.Seedat*</mark>, B.van Breugel*, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
 model evaluation with synthetic test data.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2310.16524.pdf)]
 * L.Hansen*, <mark>N.Seedat*</mark>, M. van der Schaar, A.Petrovic.  ``Reimagining Synthetic Data Generation through DataCentric AI: A Comprehensive Benchmark..'' **NeurIPS 2023 (D&B)**  [[paper](https://arxiv.org/pdf/2310.16981.pdf)]
 * H.Sun, B.van Breugel, J.Crabb\'e, <mark>N.Seedat</mark>, M. van der Schaar. ``What is Flagged in Uncertainty Quantification?

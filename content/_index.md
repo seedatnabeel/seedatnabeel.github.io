@@ -81,11 +81,11 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 ### Top ML/AI conferences
 
-* <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Dissecting sample hardness: Fine-grained analysis of Hardness Characterization Methods.'' **ICLR 2024**  [[coming soon]()]
-* T.Liu, N.Astorga, <mark>N.Seedat</mark>, M. van der Schaar. ``Large Language Models to Enhance Bayesian Optimization.'' **ICLR 2024**  [[coming soon]()]
-* N. Huynh, J. Berrevoets,<mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``DAGnosis: Localized Identification of Data Inconsistencies using Structures.'' **AISTATS 2024**  [[coming soon]()]
+* <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Dissecting sample hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2403.04551)]
+* T.Liu, N.Astorga, <mark>N.Seedat</mark>, M. van der Schaar. ``Large Language Models to Enhance Bayesian Optimization.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2402.03921)]
+* N. Huynh, J. Berrevoets,<mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``DAGnosis: Localized Identification of Data Inconsistencies using Structures.'' **AISTATS 2024**  [[paper](https://arxiv.org/abs/2402.17599)]
 * <mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``TRIAGE: Characterizing and auditing training data for
-improved regression.'' **NeurIPS 2023**  [[paper](https://openreview.net/pdf?id=eP6cDDwBNC)]
+improved regression.'' **NeurIPS 2023**  [[paper](https://arxiv.org/abs/2310.18970)]
 * <mark>N.Seedat*</mark>, B.van Breugel*, F.Imrie, M. van der Schaar. ``Can you rely on your model evaluation? Improving
 model evaluation with synthetic test data.'' **NeurIPS 2023**  [[paper](https://arxiv.org/pdf/2310.16524.pdf)]
 * L.Hansen*, <mark>N.Seedat*</mark>, M. van der Schaar, A.Petrovic.  ``Reimagining Synthetic Data Generation through DataCentric AI: A Comprehensive Benchmark..'' **NeurIPS 2023 (D&B)**  [[paper](https://arxiv.org/pdf/2310.16981.pdf)]
@@ -122,6 +122,8 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 
 
 ### Invited Talks
+
+* Apple (Topic: Data-Centric AI - Data characterization & Synthetic Data) (April 2024)
 
 * Microsoft Research Cambridge (Topic: Data-Centric AI) (November 2023)
 

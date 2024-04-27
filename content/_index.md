@@ -36,6 +36,8 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 ## 🗞️ News 🗞️
 
+* <span class="date">March 2024</span> &#8594; Gave a talk at **Apple** on Data characterization & Synthetic data. Thanks for hosting me and the super fun session! 😊
+
 * <span class="date">Jan 2024</span> &#8594; Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
 
 * <span class="date">Dec 2023</span> &#8594; DC-Check accepted to IEEE Transactions on AI!  Interested in Data-Centric AI, then checkout our paper Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities 😊
@@ -46,7 +48,7 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 * <span class="date">Oct 2023</span> &#8594; _Four papers accepted to [**NeurIPS2023**](https://nips.cc/)!_ Three papers on the main track and one on the D&B track. Camera-ready versions of our papers coming soon!
 
-* <span class="date">Sep 2023</span> &#8594; On September 11 I gave a talk on _Data-Centric AI_ at the AI and Machine Learning in Healthcare Summer School organised by the Cambridge Center for AI in Medicine (CCAIM). Have a look at the fantastic program here: https://ccaim.cam.ac.uk/program/.
+* <span class="date">Sept 2023</span> &#8594; On September 11 I gave a talk on _Data-Centric AI_ at the AI and Machine Learning in Healthcare Summer School organised by the Cambridge Center for AI in Medicine (CCAIM). Have a look at the fantastic program here: https://ccaim.cam.ac.uk/program/.
 
 * <span class="date">Aug 2023</span> &#8594; _Presented a tutorial on Data-Centric AI@ [**IJCAI2023**](https://ijcai-23.org/tutorials/)!_ together w/ Mihaela van der Schaar. It was a fantastic experience to engage with the community about this important research area!
 

@@ -36,7 +36,7 @@ To reach out, please send an email to: ns741@cam.ac.uk
 
 ## 🗞️ News 🗞️
 
-* <span class="date">March 2024</span> &#8594; Gave a talk at **Apple** on Data characterization & Synthetic data. Thanks for hosting me and the super fun session! 😊
+* <span class="date">April 2024</span> &#8594; Gave a talk at **Apple** on Data characterization & Synthetic data. Thanks for hosting me and the super fun session! 😊
 
 * <span class="date">Jan 2024</span> &#8594; Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
 

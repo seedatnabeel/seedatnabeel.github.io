@@ -35,6 +35,15 @@ To reach out, please send an email to: ns741@cam.ac.uk
 ---
 
 ## 🗞️ News 🗞️
+* <span class="date">July 2024</span> &#8594; Two papers accepted to [**ICML 2024**](https://icml.cc/)  - topics include **LLMs for synthetic data generation** and **uncertainty estimation**! 🥳 Looking forward to presenting these with my co-authors!
+
+* <span class="date">June 2024</span> &#8594; Our paper improving pseudo-labeling (semi-supervised learning) from a data-centric perspective has been accepted to the new [**Journal of Data-centric Machine Learning Research (DMLR)**](https://data.mlr.press/) 🥳. Really excited to be one of the early contributors to this premier data-centric ML research venue --- part of the JMLR family.
+
+* <span class="date">June 2024</span> &#8594; Gave a talk at **Stanford** on **An Uncertainty Estimation lens on Data-centric AI** 🤔
+
+* <span class="date">May 2024</span> &#8594; Our paper on Generalization as a key challenge for Responsible AI is accepted to [**Nature Digital Medicine**](https://www.nature.com/npjdigitalmed/)! Really awesome colab with [GSK](https://www.gsk.ai/) 😎. We were invited to talk about it on the [Nature podcast](https://x.com/npjDigitalMed/status/1805625233904124333).  
+
+* <span class="date">May 2024</span> &#8594; Had a really fun time at the [**ICTP Advanced ML Summer School**](https://indico.ictp.it/event/10479) in Trieste giving a talk on **Data-centric AI for healthcare**.  Thanks to the organizers 😊
 
 * <span class="date">April 2024</span> &#8594; Gave a talk at **Apple** on Data characterization & Synthetic data. Thanks for hosting me and the super fun session! 😊
 
@@ -82,7 +91,9 @@ Please find some of my publications below (a more up-to-date list can be found o
 "\*" denotes equal contribution.
 
 ### Top ML/AI conferences
-
+* <mark>N.Seedat*</mark>, N.Huynh*, B.van Breugel, M.van der Schaar ``Curated LLM: Synergy of LLMs and Data Curation for tabular augmentation in low-data regimes.'' **ICML 2024**  [[paper](https://arxiv.org/abs/2312.12112)]
+* T.Pouplin, A.Jeffares, <mark>N.Seedat</mark>, M.van der Schaar ``Relaxed Quantile Regression: Prediction Intervals for Asymmetric Noise.'' **ICML 2024**  [[paper](https://arxiv.org/abs/2406.03258)]
+* <mark>N.Seedat*</mark>, N.Huynh*, F.Imrie, M. van der Schaar. ``You can't handle the (dirty) truth: Data-Centric Insights Improve Pseudo-Labeling'' **Journal of Data-centric Machine Learning Research (DMLR)**  [[paper](https://arxiv.org/abs/2406.13733)]
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Dissecting sample hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2403.04551)]
 * T.Liu, N.Astorga, <mark>N.Seedat</mark>, M. van der Schaar. ``Large Language Models to Enhance Bayesian Optimization.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2402.03921)]
 * N. Huynh, J. Berrevoets,<mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``DAGnosis: Localized Identification of Data Inconsistencies using Structures.'' **AISTATS 2024**  [[paper](https://arxiv.org/abs/2402.17599)]
@@ -103,7 +114,7 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 * <mark>N.Seedat</mark> and V.Aharonson. ``Machine learning discrimination of Parkinson’s Disease stages from walker-mounted sensors data.'' **AAAI 2020 - International Workshop on Health Intelligence and Studies  in Computational Intelligence (Springer), 2020**. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4#:~:text=The%20results%20indicate%20a%20feasibility,quantitative%20assessment%20of%20PD%20progression.)]
 
 ### Journals, other conferences, pre-prints
-
+* L.Goetz*,<mark>N.Seedat*</mark>, R.Vandersluis, M. van der Schaar. ``Generalization—a key challenge for responsible AI in patient-facing clinical applications.'' **Nature Digital Medicine**  [[paper](https://www.nature.com/articles/s41746-024-01127-3)]
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities.'' IEEE Transactions on Artificial Intelligence, 2024.  [[paper](https://ieeexplore.ieee.org/abstract/document/10372382)]
 * E.Heremans, <mark>N.Seedat</mark>, B.Buyse, D.Testelmans, M. van der Schaar, \& M. De Vos. ``U-PASS: an Uncertainty-guided deep learning Pipeline for Automated Sleep Staging.'' Computers in Biology and Medicine, Vol 171, 2024.  [[paper](https://www.sciencedirect.com/science/article/pii/S0010482524002890)]
 * H.Liu*, <mark>N.Seedat*</mark> and J.Ive. ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' arXiv preprint, arXiv:2205.14761, 2022.  [[paper](https://arxiv.org/abs/2205.14761)]
@@ -124,6 +135,12 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 
 
 ### Invited Talks
+
+* Nature Digital Medicine (Topic: Generalization as a key challenge for Responsible AI) (June 2024)
+
+* Stanford (Topic: An uncertainty estimation lens on Data-centric AI) (June 2024)
+
+* ICTP Advanced ML summer school (Topic: Data-Centric AI) (May 2024)
 
 * Apple (Topic: Data-Centric AI - Data characterization & Synthetic Data) (April 2024)
 

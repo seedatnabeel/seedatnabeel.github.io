@@ -35,6 +35,8 @@ To reach out, please send an email to: ns741@cam.ac.uk
 ---
 
 ## 🗞️ News 🗞️
+* <span class="date">Summer 2024</span> &#8594; Excited to be interning as an ML Researcher at [**AstraZeneca**](https://www.astrazeneca.co.uk/), where I'll be working on **LLMs for clinical trials** 💊💉. Looking forward to AI research around **LLM verification and uncertainty quantification** to advance healthcare 🩺!
+
 * <span class="date">July 2024</span> &#8594; Two papers accepted to [**ICML 2024**](https://icml.cc/)  - topics include **LLMs for synthetic data generation** and **uncertainty estimation**! 🥳 Looking forward to presenting these with my co-authors!
 
 * <span class="date">June 2024</span> &#8594; Our paper improving pseudo-labeling (semi-supervised learning) from a data-centric perspective has been accepted to the new [**Journal of Data-centric Machine Learning Research (DMLR)**](https://data.mlr.press/) 🥳. Really excited to be one of the early contributors to this premier data-centric ML research venue --- part of the JMLR family.

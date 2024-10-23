@@ -99,7 +99,7 @@ Please find some of my publications below (a more up-to-date list can be found o
 "\*" denotes equal contribution.
 
 ### Top ML/AI venues
-*P.Rauba*, <mark>N.Seedat*</mark>, M.Luyten, M. van der Schaar. ``Context-aware testing: A new paradigm for testing with
+* P.Rauba*, <mark>N.Seedat*</mark>, M.Luyten, M. van der Schaar. ``Context-aware testing: A new paradigm for testing with
 Large Language Models.'' **NeurIPS 2024** 
 * <mark>N.Seedat</mark>, M. van der Schaar. ``Matchmaker: Self-Improving Compositional LLM Programs for Schema Matching.''
 **NeurIPS 2024 GenAI for Health** 
@@ -131,7 +131,7 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 * <mark>N.Seedat</mark> and C.Kanan. ``Towards calibrated and scalable uncertainty representations for neural networks.'' **NeurIPS 2019 - 4th Workshop on Bayesian Deep Learning.**  [[paper](https://arxiv.org/abs/1911.00104)]
 * <mark>N.Seedat</mark> and V.Aharonson. ``Machine learning discrimination of Parkinson’s Disease stages from walker-mounted sensors data.'' **AAAI 2020 - International Workshop on Health Intelligence and Studies  in Computational Intelligence (Springer), 2020**. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4#:~:text=The%20results%20indicate%20a%20feasibility,quantitative%20assessment%20of%20PD%20progression.)]
 
-### Journals, other conferences, pre-prints
+### Journals and other conferences
 * L.Goetz*,<mark>N.Seedat*</mark>, R.Vandersluis, M. van der Schaar. ``Generalization—a key challenge for responsible AI in patient-facing clinical applications.'' **Nature Digital Medicine**  [[paper](https://www.nature.com/articles/s41746-024-01127-3)]
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities.'' IEEE Transactions on Artificial Intelligence, 2024.  [[paper](https://ieeexplore.ieee.org/abstract/document/10372382)]
 * E.Heremans, <mark>N.Seedat</mark>, B.Buyse, D.Testelmans, M. van der Schaar, \& M. De Vos. ``U-PASS: an Uncertainty-guided deep learning Pipeline for Automated Sleep Staging.'' Computers in Biology and Medicine, Vol 171, 2024.  [[paper](https://www.sciencedirect.com/science/article/pii/S0010482524002890)]

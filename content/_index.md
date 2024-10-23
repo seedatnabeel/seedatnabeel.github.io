@@ -11,13 +11,13 @@ description: "Nabeel Seedat"
     <img src="/images/nabeel.jpg" alt="profile" />
   </div>
 
-Hi 👋 I am a final-year PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests are data modality agnostic, focussing on: **Data-Centric AI**, **Uncertainty Quantification**, **Synthetic Data** & **Trustworthy ML**. 
+Hi 👋 I am a final-year PhD student in Machine Learning at the [University of Cambridge](https://damtp.cam.ac.uk/) supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com). My research interests span: **Data-Centric AI**, **Large Language Models (LLM)s**, **Responsible AI**, **Synthetic Data** and **Uncertainty Quantification**. 
 
 Since data is the fuel for ML, my research aims to develop systematic data-centric approaches applicable to different data modalities (tabular, image & text) --- to make ML systems more reliable & trustworthy 🦾, whilst also improving model performance & training efficiency 🚀. Most recently on **Large Language Models (LLM)s**!
 
 I hold a Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). 
 
-My industry experience includes time spent as an ML Researcher at [**AstraZeneca**](https://www.astrazeneca.co.uk/) working on Large Language Model verification, test-time scaling and uncertainty quantification. Prior to my PhD, I worked on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
+My industry experience includes time as an ML Researcher at [AstraZeneca](https://www.astrazeneca.co.uk/) working on LLM verification, test-time scaling and uncertainty quantification. Prior to my PhD, I worked on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 
 <span style="color: red">**Note: I am finishing my PhD in the Summer of 2025 and on the market for full-time industry ML Research opportunities.**</span>
 

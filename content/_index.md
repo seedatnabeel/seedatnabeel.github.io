@@ -15,11 +15,11 @@ Hi 👋 I am a PhD student in Machine Learning at the [University of Cambridge](
 
 Since data is the fuel for ML, my research aims to develop systematic data-centric approaches applicable to different data modalities (tabular, image & text) --- to make ML systems more reliable & trustworthy 🦾, whilst also improving model performance & training efficiency 🚀. Most recently on **Large Language Models (LLM)s**!
 
-I hold an Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). Before starting my PhD I have spent time working on production ML systems as a Data Scientist focussed on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and an ML Engineer focussed on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
+I hold a Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). Before starting my PhD I have spent time working on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 
+<span style="color: red">**Note: I am finishing my PhD in the Summer of 2025 and on the lookout for interesting future industry ML Research opportunities.**</span>
 
-
-To reach out, please send an email to: ns741@cam.ac.uk 
+Please feel free to reach out to chat: ns741@cam.ac.uk 
 
 {{% center %}}
 [[twitter](https://twitter.com/NabeelSeedat01)] [[scholar](https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ)] [[github](https://github.com/seedatnabeel)] [[linkedin](https://linkedin.com/in/nabeel-seedat)]
@@ -35,6 +35,10 @@ To reach out, please send an email to: ns741@cam.ac.uk
 ---
 
 ## 🗞️ News 🗞️
+* <span class="date">Nov 2024</span> &#8594;  _Four papers accepted to [**NeurIPS2024**](https://nips.cc/)!_ covering different dimensions of **Large Language Models (LLMs)**. Looking forward to presenting with my co-authors in Vancouver 🥳 Camera-ready versions of our papers coming soon!
+
+* <span class="date">Oct 2024</span> &#8594; 🤩 Really enjoyed giving a tutorial at [**MICCAI 2024**](https://continualmedai.github.io/dcdl2024/) on Clinical AI in the real-world: From Data-centric AI to Dynamic Learning. It was an honor to have the opportunity to share my research during the tutorial at the first MICCAI to take place in Africa! 🇿🇦🌍🎉
+
 * <span class="date">Summer 2024</span> &#8594; Excited to be interning as an ML Researcher at [**AstraZeneca**](https://www.astrazeneca.co.uk/), where I'll be working on **LLMs for clinical trials** 💊💉. Looking forward to AI research around **LLM verification and uncertainty quantification** to advance healthcare 🩺!
 
 * <span class="date">July 2024</span> &#8594; Two papers accepted to [**ICML 2024**](https://icml.cc/)  - topics include **LLMs for synthetic data generation** and **uncertainty estimation**! 🥳 Looking forward to presenting these with my co-authors!
@@ -92,11 +96,21 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 "\*" denotes equal contribution.
 
-### Top ML/AI conferences
+### Top ML/AI venues
+*P.Rauba*, <mark>N.Seedat*</mark>, M.Luyten, M. van der Schaar. ``Context-aware testing: A new paradigm for testing with
+Large Language Models.'' **NeurIPS 2024** 
+* <mark>N.Seedat</mark>, M. van der Schaar. ``Matchmaker: Self-Improving Compositional LLM Programs for Schema Matching.''
+**NeurIPS 2024 GenAI for Health** 
+* P.Rauba, <mark>N.Seedat</mark>, M. van der Schaar. ``Self-Healing Machine Learning: A Framework for Autonomous Adaptation
+in Real-World Environments.'' **NeurIPS 2024** 
+* N.Astorga, T,Liu, <mark>N.Seedat</mark>, M. van der Schaar. ``POCA: Partially Observable Cost-Aware Active-Learning.''
+**NeurIPS 2024** 
 * <mark>N.Seedat*</mark>, N.Huynh*, B.van Breugel, M.van der Schaar ``Curated LLM: Synergy of LLMs and Data Curation for tabular augmentation in low-data regimes.'' **ICML 2024**  [[paper](https://arxiv.org/abs/2312.12112)]
 * T.Pouplin, A.Jeffares, <mark>N.Seedat</mark>, M.van der Schaar ``Relaxed Quantile Regression: Prediction Intervals for Asymmetric Noise.'' **ICML 2024**  [[paper](https://arxiv.org/abs/2406.03258)]
 * <mark>N.Seedat*</mark>, N.Huynh*, F.Imrie, M. van der Schaar. ``You can't handle the (dirty) truth: Data-Centric Insights Improve Pseudo-Labeling'' **Journal of Data-centric Machine Learning Research (DMLR)**  [[paper](https://arxiv.org/abs/2406.13733)]
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Dissecting sample hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2403.04551)]
+* H.Sun, A.Chan, <mark>N.Seedat</mark>, A.Huyuk, M. van der Schaar. ``When is Off-Policy Evaluation (Reward Modeling)
+Useful in Contextual Bandits? A Data-Centric Perspective.'' **Journal of Data-centric Machine Learning Research (DMLR)**  [[paper](https://arxiv.org/abs/2311.14110)]
 * T.Liu, N.Astorga, <mark>N.Seedat</mark>, M. van der Schaar. ``Large Language Models to Enhance Bayesian Optimization.'' **ICLR 2024**  [[paper](https://arxiv.org/abs/2402.03921)]
 * N. Huynh, J. Berrevoets,<mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``DAGnosis: Localized Identification of Data Inconsistencies using Structures.'' **AISTATS 2024**  [[paper](https://arxiv.org/abs/2402.17599)]
 * <mark>N.Seedat</mark>, J.Crabbe, Z.Qian, M. van der Schaar. ``TRIAGE: Characterizing and auditing training data for
@@ -119,7 +133,7 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 * L.Goetz*,<mark>N.Seedat*</mark>, R.Vandersluis, M. van der Schaar. ``Generalization—a key challenge for responsible AI in patient-facing clinical applications.'' **Nature Digital Medicine**  [[paper](https://www.nature.com/articles/s41746-024-01127-3)]
 * <mark>N.Seedat</mark>, F.Imrie, M. van der Schaar. ``Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities.'' IEEE Transactions on Artificial Intelligence, 2024.  [[paper](https://ieeexplore.ieee.org/abstract/document/10372382)]
 * E.Heremans, <mark>N.Seedat</mark>, B.Buyse, D.Testelmans, M. van der Schaar, \& M. De Vos. ``U-PASS: an Uncertainty-guided deep learning Pipeline for Automated Sleep Staging.'' Computers in Biology and Medicine, Vol 171, 2024.  [[paper](https://www.sciencedirect.com/science/article/pii/S0010482524002890)]
-* H.Liu*, <mark>N.Seedat*</mark> and J.Ive. ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' arXiv preprint, arXiv:2205.14761, 2022.  [[paper](https://arxiv.org/abs/2205.14761)]
+* H.Liu*, <mark>N.Seedat*</mark> and J.Ive. ``Modelling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing.'' Frontiers in Artificial Intelligence, 2024.  [[paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1374162/full)]
 * <mark>N.Seedat</mark> and V.Aharonson. ``Automated Machine Vision Enabled Detection of Movement Disorders from hand drawn spirals.'' IEEE International Conference on Health Informatics (IEEE ICHI), 2020.  [[paper](https://ieeexplore.ieee.org/document/9374333)]
 * <mark>N.Seedat</mark>, V.Aharonson and Y.Hamzany. ``Automated and interpretable m-health discrimination of vocal cord pathology enabled by machine learning.'' IEEE Conference on Computer Science and Data Engineering, 2020.  [[paper](https://ieeexplore.ieee.org/document/9411529)]
 * V.Aharonson, <mark>N.Seedat</mark>, S.Korn, S.Baer, M.Postema, G.Yahalom. ''Automated stage discrimination of Parkinson’s Disease.'', BIO Integration Journal, 2020. [[paper](https://bio-integration.org/wp-content/uploads/2020/06/bioi20200006.pdf)]
@@ -129,7 +143,9 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 * <mark>N.Seedat</mark>, I.Mohamed and AK.Mohamed .``Custom Force Sensor and Sensory Feedback System to Enable Grip Control of a Robotic Prosthetic Hand.'' IEEE BioRob, 2018.  [[paper](https://ieeexplore.ieee.org/document/8487948)]
 * <mark>N.Seedat</mark> and A.van Wyk. ``Quadcopter Control using Intelligent Control.'' Deep Learning Indaba.  [[paper](https://www.researchgate.net/publication/325999949_Quadcopter_Control_using_Intelligent_Control_Methods)]
 
-### Tutorials 
+### Tutorials at top AI/ML conferences
+
+* <mark>N.Seedat</mark>, C.Gonzalez, M. van der Schaar. ``Clinical AI in the real-world: From Data-centric AI to Dynamic Learning'' MICCAI 2024 Tutorial.  
 
 * <mark>N.Seedat</mark>, I.Guyon, M. van der Schaar. ``Data-Centric AI for reliable and responsible AI: from theory to practice'' NeurIPS 2023 Tutorial.  
 
@@ -137,6 +153,7 @@ Latent Density Models for Uncertainty Categorization.'' **NeurIPS 2023**  [[pape
 
 
 ### Invited Talks
+* GE Healthcare (Topic: Synthetic data) (Oct 2024)
 
 * Nature Digital Medicine (Topic: Generalization as a key challenge for Responsible AI) (June 2024)
 

@@ -13,7 +13,7 @@ body {
     padding: 1em;
     line-height: 1.5;
   width: 80%; /* Width of body spans the full width of the page */
-  font-size: 1.5em;
+  font-size: 2em;
   }
   
   h1 {
@@ -24,7 +24,7 @@ body {
   .profile-pic img {
     float: left;
     width: 100%;
-    max-width: 170px;
+    max-width: 250px;
     margin-right: 40px;
     border-radius: 8px;
   }

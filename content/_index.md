@@ -19,7 +19,7 @@ I hold a Masters degree from [Cornell University](https://www.cornell.edu/) work
 
 My industry experience includes time as an ML Researcher at [AstraZeneca](https://www.astrazeneca.co.uk/) working on LLM verification, test-time scaling and uncertainty quantification. Prior to my PhD, I worked on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 
-<span style="color: red; font-size: 24px">**Note: I am finishing my PhD in the Summer of 2025 and on the market for full-time industry ML Research opportunities.**</span>
+<span style="color: red; font-size: 30px">**Note: I am finishing my PhD in the Summer of 2025 and on the market for full-time industry ML Research opportunities.**</span>
 
 Please feel free to reach out to chat: ns741@cam.ac.uk 
 

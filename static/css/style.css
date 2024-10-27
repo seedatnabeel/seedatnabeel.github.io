@@ -1,102 +1,99 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
-  margin: 0;
-  padding: 2em; /* Increased padding for more white space around the content */
-  line-height: 1.8; /* Increased line height for better readability */
-  width: 100%;
-  font-size: 2em;
-}
-
-code {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 1em;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 1.5em; /* Added space below heading */
-}
-
-/* custom */
-.profile-pic img {
-  float: left;
-  width: 100%;
-  max-width: 170px;
-  margin-right: 50px; /* Increased margin for more space around image */
-  border-radius: 8px;
-}
-
-@media only screen and (max-width: 768px) {
-  .profile-pic img {
-    float: none;
-    width: 100%;
-    display: block;
-    margin: auto;
-    margin-bottom: 40px; /* Increased space below the image */
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;
   }
-}
-
-.centered {
-  text-align: center;
-  margin-bottom: 2em; /* Increased space below centered elements */
-}
-
-mark {
-  background-color: #bbfdfb;
-  color: black;
-}
-
-.date {
-  background-color: lightgoldenrodyellow;
-}
-
-/* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
-.article-meta, .menu a {
-  text-decoration: none;
-  background: #eee;
-  padding: 15px; /* Increased padding for more whitespace */
-  border-radius: 5px;
-  margin-right: 10px; /* Added margin between menu items */
-}
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.3em; }
-footer a { text-decoration: none; margin-top: 2em; } /* Added margin above footer links */
-hr {
-  border-style: dashed;
-  color: #ddd;
-  margin: 2em 0; /* Added more space above and below horizontal rules */
-}
-
-/* code */
-pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 2em; /* Increased padding for more white space inside code blocks */
-  margin-bottom: 2em; /* Added space below pre blocks */
-  overflow-x: auto;
-  font-size: 1.1em;
-}
-code { background: #f9f9f9; }
-pre code { background: none; }
-
-/* misc elements */
-img, iframe, video { max-width: 100%; margin-bottom: 2em; } /* Added margin below media elements */
-main { hyphens: auto; }
-blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 10px 1.5em; /* Increased padding for more space inside blockquote */
-  margin: 2em 0; /* Added margin around blockquotes */
-}
-
-table {
-  margin: 3em auto; /* Increased margin above and below tables */
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 10px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+  code {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 85%;
+  }
+  
+  
+  body {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* custom */
+  .profile-pic img {
+    float: left;
+    width: 100%;
+    max-width: 170px;
+    margin-right: 40px;
+    border-radius: 8px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .profile-pic img {
+      float: none;
+      width: 100%;
+      display: block;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .centered {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  mark {
+    background-color: #bbfdfb;
+    color: black;
+  }
+  
+  .date {
+    background-color:lightgoldenrodyellow;
+  }
+  
+  
+  /* header and footer areas */
+  .menu { padding: 0; }
+  .menu li { display: inline-block; }
+  .article-meta, .menu a {
+    text-decoration: none;
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .menu, .article-meta, footer { text-align: center; }
+  .title { font-size: 1.1em; }
+  footer a { text-decoration: none; }
+  hr {
+    border-style: dashed;
+    color: #ddd;
+  }
+  
+  /* code */
+  pre {
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px #eee;
+    padding: 1em;
+    overflow-x: auto;
+  }
+  code { background: #f9f9f9; }
+  pre code { background: none; }
+  
+  /* misc elements */
+  img, iframe, video { max-width: 100%; }
+  main { hyphens: auto; }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    padding: 3px 1em 3px;
+  }
+  
+  table {
+    margin: auto;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+  }
+  table thead th { border-bottom: 1px solid #ddd; }
+  th, td { padding: 5px; }
+  thead, tfoot, tr:nth-child(even) { background: #eee; }

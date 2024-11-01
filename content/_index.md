@@ -17,11 +17,11 @@ Since data is the fuel for ML, my research aims to develop systematic data-centr
 
 I hold a Masters degree from [Cornell University](https://www.cornell.edu/) working on Bayesian Deep Learning, as well as a Masters from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/) working on Signal Processing & ML for Parkinson's Disease. I also hold a dual-bachelors in Information Engineering & Biomedical Engineering from the [University of the Witwatersrand (South Africa)](https://www.wits.ac.za/). 
 
-My industry experience includes time as an ML Researcher at [AstraZeneca](https://www.astrazeneca.co.uk/) working on LLM verification, test-time scaling and uncertainty quantification. Prior to my PhD, I worked on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
+My industry experience includes time as an ML Researcher at [AstraZeneca](https://www.astrazeneca.co.uk/) working on LLM verification, test-time scaling and uncertainty quantification. Before my PhD, I worked on production ML systems as a Data Scientist working on Computer Vision at [Shutterstock (USA)](https://www.shutterstock.com) and as an ML Engineer working on NLP at [Multichoice](https://www.multichoice.com/) (Africa's largest multimedia company).
 
 <span style="color: red; font-size: 30px">**Note: I am finishing my PhD in the Summer of 2025 and am looking for full-time industry ML Research opportunities.**</span>
 
-Please feel free to reach out to chat: ns741@cam.ac.uk 
+Please reach out if you think I am a good fit: ns741@cam.ac.uk 
 
 {{% center %}}
 [[twitter](https://twitter.com/NabeelSeedat01)] [[scholar](https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ)] [[github](https://github.com/seedatnabeel)] [[linkedin](https://linkedin.com/in/nabeel-seedat)]

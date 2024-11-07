@@ -100,11 +100,11 @@ Please find some of my publications below (a more up-to-date list can be found o
 
 ### Top ML/AI venues
 * P.Rauba*, <mark>N.Seedat*</mark>, M.Luyten, M. van der Schaar. ``Context-aware testing: A new paradigm for testing with
-Large Language Models.'' **NeurIPS 2024** 
+Large Language Models.'' **NeurIPS 2024**  [[paper](https://arxiv.org/pdf/2410.24005)]
 * <mark>N.Seedat</mark>, M. van der Schaar. ``Matchmaker: Self-Improving Compositional LLM Programs for Schema Matching.''
-**NeurIPS 2024 GenAI for Health** 
+**NeurIPS 2024 GenAI for Health**  [[paper](https://arxiv.org/abs/2410.24105)]
 * P.Rauba, <mark>N.Seedat</mark>, M. van der Schaar. ``Self-Healing Machine Learning: A Framework for Autonomous Adaptation
-in Real-World Environments.'' **NeurIPS 2024** 
+in Real-World Environments.'' **NeurIPS 2024**  [[paper](https://arxiv.org/abs/2411.00186)]
 * N.Astorga, T,Liu, <mark>N.Seedat</mark>, M. van der Schaar. ``POCA: Partially Observable Cost-Aware Active-Learning.''
 **NeurIPS 2024** 
 * <mark>N.Seedat*</mark>, N.Huynh*, B.van Breugel, M.van der Schaar ``Curated LLM: Synergy of LLMs and Data Curation for tabular augmentation in low-data regimes.'' **ICML 2024**  [[paper](https://arxiv.org/abs/2312.12112)]

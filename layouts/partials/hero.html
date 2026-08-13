@@ -3,10 +3,10 @@
     {{- with site.Params.photo }}
       {{- /* A bare filename resolves through assets/images/ so Hugo can emit a
              resized WebP; anything starting with / or http is used verbatim. */ -}}
-      {{- $src := . }}{{ $w := 148 }}{{ $h := 148 }}
+      {{- $src := . }}{{ $w := 240 }}{{ $h := 240 }}
       {{- if not (or (hasPrefix . "/") (hasPrefix . "http")) }}
         {{- with resources.Get (printf "images/%s" .) }}
-          {{- $o := .Process "fill 444x444 webp q84 Center" }}
+          {{- $o := .Process "fill 720x720 webp q84 Center" }}
           {{- $src = $o.RelPermalink }}{{ $w = $o.Width }}{{ $h = $o.Height }}
         {{- end }}
       {{- end }}
@@ -42,10 +42,12 @@
         <a href="{{ . }}">cv</a>
         {{- end }}
       </div>
+
+      {{- /* The bio sits in the same column as the name so it wraps beside the
+             photo rather than clearing it. */ -}}
+      <div class="prose hero__bio">{{ .Content }}</div>
     </div>
   </div>
-
-  <div class="prose">{{ .Content }}</div>
 
   {{- with site.Params.interests }}
   <div class="interests">

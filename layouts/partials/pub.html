@@ -15,17 +15,10 @@
   <p class="pub__meta">
     {{- with .venue }}<span class="pub__venue">{{ . }}</span>{{ end }}
     {{- if .preprint }}<span class="pub__tag">Preprint</span>{{ end }}
-    {{- with .links }}
-      {{- $links := . }}
-      {{- $order := slice "paper" "code" "bibtex" "website" "project" "slides" "poster" "video" }}
+    {{- /* Only the paper link is shown; other link kinds in the data are ignored. */ -}}
+    {{- with .links.paper }}
     <span class="pub__links">
-      {{- range $k := $order }}
-        {{- with index $links $k }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $k }}</a>{{ end }}
-      {{- end }}
-      {{- /* Any link kinds not in the preferred order, alphabetically. */ -}}
-      {{- range $k, $v := $links }}
-        {{- if not (in $order $k) }}<a href="{{ $v }}" target="_blank" rel="noopener">{{ $k }}</a>{{ end }}
-      {{- end }}
+      <a href="{{ . }}" target="_blank" rel="noopener">paper</a>
     </span>
     {{- end }}
   </p>

@@ -1,0 +1,60 @@
+<section class="hero container" id="about">
+  <div class="hero__head">
+    {{- with site.Params.photo }}
+      {{- /* A bare filename resolves through assets/images/ so Hugo can emit a
+             resized WebP; anything starting with / or http is used verbatim. */ -}}
+      {{- $src := . }}{{ $w := 148 }}{{ $h := 148 }}
+      {{- if not (or (hasPrefix . "/") (hasPrefix . "http")) }}
+        {{- with resources.Get (printf "images/%s" .) }}
+          {{- $o := .Process "fill 444x444 webp q84 Center" }}
+          {{- $src = $o.RelPermalink }}{{ $w = $o.Width }}{{ $h = $o.Height }}
+        {{- end }}
+      {{- end }}
+    <img
+      class="hero__photo"
+      src="{{ $src }}"
+      width="{{ $w }}"
+      height="{{ $h }}"
+      alt="{{ site.Title }}"
+    />
+    {{- end }}
+
+    <div class="hero__intro">
+      <h1 class="hero__name" id="hero-name">{{ site.Title }}</h1>
+
+      {{- /* The affiliations row supersedes the single role line when present. */ -}}
+      {{- if site.Params.affiliations }}
+      {{ partial "affiliations.html" . }}
+      {{- else }}
+        {{- with site.Params.role }}
+      <p class="hero__role">{{ . }}</p>
+        {{- end }}
+      {{- end }}
+
+      <div class="hero__links">
+        {{- with site.Params.email }}
+        <a href="mailto:{{ . }}">email</a>
+        {{- end }}
+        {{- range site.Params.social }}
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+        {{- end }}
+        {{- with site.Params.cv }}
+        <a href="{{ . }}">cv</a>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="prose">{{ .Content }}</div>
+
+  {{- with site.Params.interests }}
+  <div class="interests">
+    <h2 class="interests__label">Research interests</h2>
+    <ul class="interests__list">
+      {{- range . }}
+      <li class="interests__item">{{ . }}</li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+</section>

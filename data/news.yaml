@@ -1,0 +1,145 @@
+# News items, newest first. `body` is Markdown and is rendered with markdownify,
+# so links, bold, italics and emoji all work exactly as they did before.
+#
+# `recent_count` in config.toml controls how many appear before the
+# "Show earlier news" expander.
+
+items:
+  # Dates below are month-level. Conference months (ICLR April, ICML July,
+  # EMNLP November, EurIPS December) and the Thomson-1 announcement are
+  # documented; the rest come from what you told me. Adjust as needed.
+  - date: "Aug 2026"
+    body: |-
+      🚀 **Thomson-1** is here! Really proud of what the team has built --- Thomson Reuters' own frontier-class foundation model, trained on decades of authoritative content from Westlaw, Practical Law, Checkpoint and Reuters. It benchmarks competitively with **Claude Opus 4.8** and ahead of **GPT-5.5**, **Claude Sonnet 5** and **Gemini 3.1 Pro** on legal and general-domain evaluations --- at a fraction of the size and training cost. I lead **LLM Evaluations** for the model. Read the [announcement](https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/).
+
+  - date: "July 2026"
+    body: |-
+      Two papers at [**ICML 2026**](https://icml.cc/) 🥳 **Influence-Guided Symbolic Regression** on LLM-driven equation search for scientific discovery, and **To Whom Do Language Models Align?** at the Pluralistic Alignment Workshop.
+
+  - date: "April 2026"
+    body: |-
+      🏆 **Best Paper** at the [**ICLR 2026**](https://iclr.cc/) AIWILD workshop for **Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification** --- also accepted to ICML 2026.
+
+  - date: "Jan 2026"
+    body: |-
+      🎓 Completed my PhD in Machine Learning at the **University of Cambridge**! My thesis, _Data-Centric AI for Reliable and Trustworthy Machine Learning_, was supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com).
+
+  - date: "Dec 2025"
+    body: |-
+      **Tables2Traces**, on distilling tabular data to improve LLM reasoning in healthcare, presented at the **EurIPS 2025** Workshop on AI for Tabular Data.
+
+  - date: "Nov 2025"
+    body: |-
+      Two pieces of work on **LLM evaluation** from our team at [**EMNLP 2025**](https://2025.emnlp.org/) 😊 **DeCE** ([Beyond Pointwise Scores](https://arxiv.org/abs/2509.16093)) decomposes evaluation of long-form answers into precision and recall, and [**Scales++**](https://arxiv.org/abs/2510.26384) predicts full benchmark scores from a **0.5%** subset with 2.9% error --- an **18x** reduction in upfront cost.
+
+  - date: "July 2025"
+    body: |-
+      **Bootstrapping Self-Improvement of Language Model Programs for Zero-Shot Schema Matching** presented at [**ICML 2025**](https://icml.cc/).
+
+  - date: "May 2025"
+    body: |-
+      Excited to share that I have joined [**Thomson Reuters**](https://www.thomsonreuters.com/) Foundational Research as a **Lead Research Scientist**, leading research on **LLM Evaluations** for Thomson Reuters' foundation model 🎉
+
+  - date: "April 2025"
+    body: |-
+      Three pieces of work at [**ICLR 2025**](https://iclr.cc/) 🥳 **Going Beyond Static** on understanding distribution shifts with time-series attribution in the main track, plus **Towards Human-Guided, Data-Centric LLM Co-Pilots** (DATA-FM workshop, also in [**DMLR**](https://data.mlr.press/)) and our position paper _What's the next frontier for Data-centric AI? Data Savvy Agents!_
+
+  - date: "Nov 2024"
+    body: |-
+      _Four papers accepted to [**NeurIPS2024**](https://nips.cc/)!_ covering different dimensions of **Large Language Models (LLMs)**. Looking forward to presenting with my co-authors in Vancouver 🥳 Camera-ready versions of our papers coming soon!
+
+  - date: "Oct 2024"
+    body: |-
+      🤩 Really enjoyed giving a tutorial at [**MICCAI 2024**](https://continualmedai.github.io/dcdl2024/) on Clinical AI in the real-world: From Data-centric AI to Dynamic Learning. It was an honor to have the opportunity to share my research during the tutorial at the first MICCAI to take place in Africa! 🇿🇦🌍🎉
+
+  - date: "Summer 2024"
+    body: |-
+      Excited to be interning as an ML Researcher at [**AstraZeneca**](https://www.astrazeneca.co.uk/), where I'll be working on **LLMs for clinical trials** 💊💉. Looking forward to AI research around **LLM verification and uncertainty quantification** to advance healthcare 🩺!
+
+  - date: "July 2024"
+    body: |-
+      Two papers accepted to [**ICML 2024**](https://icml.cc/) - topics include **LLMs for synthetic data generation** and **uncertainty estimation**! 🥳 Looking forward to presenting these with my co-authors!
+
+  - date: "June 2024"
+    body: |-
+      Our paper improving pseudo-labeling (semi-supervised learning) from a data-centric perspective has been accepted to the new [**Journal of Data-centric Machine Learning Research (DMLR)**](https://data.mlr.press/) 🥳. Really excited to be one of the early contributors to this premier data-centric ML research venue --- part of the JMLR family.
+
+  - date: "June 2024"
+    body: |-
+      Gave a talk at **Stanford** on **An Uncertainty Estimation lens on Data-centric AI** 🤔
+
+  - date: "May 2024"
+    body: |-
+      Our paper on Generalization as a key challenge for Responsible AI is accepted to [**Nature Digital Medicine**](https://www.nature.com/npjdigitalmed/)! Really awesome colab with [GSK](https://www.gsk.ai/) 😎. We were invited to talk about it on the [Nature podcast](https://x.com/npjDigitalMed/status/1805625233904124333).
+
+  - date: "May 2024"
+    body: |-
+      Had a really fun time at the [**ICTP Advanced ML Summer School**](https://indico.ictp.it/event/10479) in Trieste giving a talk on **Data-centric AI for healthcare**. Thanks to the organizers 😊
+
+  - date: "April 2024"
+    body: |-
+      Gave a talk at **Apple** on Data characterization & Synthetic data. Thanks for hosting me and the super fun session! 😊
+
+  - date: "Jan 2024"
+    body: |-
+      Three papers accepted! 🥳 One paper at [**AISTATS2024**](https://aistats.org/aistats2024/) and two papers at [**ICLR2024**](https://iclr.cc/) --- a first time :) Looking forward to presenting these with my co-authors!
+
+  - date: "Dec 2023"
+    body: |-
+      DC-Check accepted to IEEE Transactions on AI! Interested in Data-Centric AI, then checkout our paper Navigating Data-Centric Artificial Intelligence with DC-Check: Advances, Challenges, and Opportunities 😊
+
+  - date: "Nov 2023"
+    body: |-
+      Gave a talk at **Microsoft Research Cambridge** on Data-Centric AI. Thanks for hosting me! 😊
+
+  - date: "Oct 2023"
+    body: |-
+      _Data-Centric AI Tutorial accepted to [**NeurIPS2023**](https://nips.cc/)!_ w/ Mihaela van der Schaar and Isabelle Guyon (Google Research). See you in New Orleans 🐊🎺🌶️
+
+  - date: "Oct 2023"
+    body: |-
+      _Four papers accepted to [**NeurIPS2023**](https://nips.cc/)!_ Three papers on the main track and one on the D&B track. Camera-ready versions of our papers coming soon!
+
+  - date: "Sept 2023"
+    body: |-
+      On September 11 I gave a talk on _Data-Centric AI_ at the AI and Machine Learning in Healthcare Summer School organised by the Cambridge Center for AI in Medicine (CCAIM). Have a look at the fantastic program here: <https://ccaim.cam.ac.uk/program/>.
+
+  - date: "Aug 2023"
+    body: |-
+      _Presented a tutorial on Data-Centric AI@ [**IJCAI2023**](https://ijcai-23.org/tutorials/)!_ together w/ Mihaela van der Schaar. It was a fantastic experience to engage with the community about this important research area!
+
+  - date: "July 2023"
+    body: |-
+      Selected by the Mail & Guardian in the [Top 200, Young South Africas's](https://mg.co.za/200-young-south-africans/) for 2023! 🇿🇦
+
+  - date: "June 2023"
+    body: |-
+      Awarded the best research poster presentation at the [Future of Data-Centric AI conference](https://future.snorkel.ai/)
+
+  - date: "May 2023"
+    body: |-
+      Paper accepted to [**ICML2023**](https://icml.cc/Conferences/2023) on transportable structure learning [[paper](https://arxiv.org/abs/2206.06354)].
+
+  - date: "March 2023"
+    body: |-
+      Our Data-Centric AI checklist called DC-Check was featured by [MarkTechPost](https://www.marktechpost.com/2023/07/24/cambridge-and-ucla-researchers-introduce-dc-check-a-new-data-centric-ai-checklist-style-framework-to-guide-the-development-of-reliable-machine-learning-systems/) and the [Montreal AI Ethics Institute](https://montrealethics.ai/dc-check-a-data-centric-ai-checklist-to-guide-the-development-of-reliable-machine-learning-systems/) (see the DC-Check [paper](https://arxiv.org/abs/2211.05764)).
+
+  - date: "Jan 2023"
+    body: |-
+      New paper accepted to [**AISTATS2023**](https://aistats.org/aistats2023/) on improving conformal prediction w/ self-supervised learning [[paper](https://proceedings.mlr.press/v206/seedat23a.html)].
+
+  - date: "Oct 2022"
+    body: |-
+      Excited to be giving talks on Data-Centric AI at AstraZeneca, Queen Mary University of London and the University of Cape Town!
+
+  - date: "Sept 2022"
+    body: |-
+      _New paper accepted to [**NeurIPS2022**](https://neurips.cc/) on data-centric AI to audit training datasets for tabular, images and text [[paper](https://arxiv.org/abs/2210.13043)]. Looking forward to presenting together with my co-authors!_
+
+  - date: "May 2022"
+    body: |-
+      _Two papers accepted!_ 🥳 at [**ICML22**](https://icml.cc/Conferences/2022) on data-centric AI for reliable deployment [[paper](https://icml.cc/virtual/2022/spotlight/17080)] and treatment effect estimation in continuous time [[paper](https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf)].
+
+  - date: "Oct 2021"
+    body: |-
+      I have officially started a PhD in Machine Learning in the University of Cambridge under the supervision of Mihaela van der Schaar!

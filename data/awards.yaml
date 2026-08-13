@@ -1,0 +1,22 @@
+# Awards and honours, newest first.
+#
+# `title` is the award, `detail` the awarding body or context, `date` the year.
+# `url` is optional and makes the title a link.
+#
+# TODO: only the three I could verify from your site and publication record are
+# here. Add any fellowships, scholarships, travel grants or PhD funding.
+
+items:
+  - title: "Best Paper Award"
+    detail: "ICLR 2026 AIWILD Workshop — Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification"
+    date: "2026"
+
+  - title: "Top 200 Young South Africans"
+    detail: "Mail & Guardian"
+    date: "2023"
+    url: "https://mg.co.za/200-young-south-africans/"
+
+  - title: "Best Research Poster Presentation"
+    detail: "Future of Data-Centric AI Conference"
+    date: "2023"
+    url: "https://future.snorkel.ai/"

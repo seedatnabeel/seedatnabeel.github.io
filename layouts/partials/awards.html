@@ -1,0 +1,20 @@
+{{- with hugo.Data.awards }}
+<section class="section container" id="awards">
+  <h2 class="section__title">Awards &amp; honours</h2>
+
+  <ul class="awards">
+    {{- range .items }}
+    <li class="award">
+      <span>
+        <span class="award__title">
+          {{- if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+          {{- else }}{{ .title }}{{ end }}
+        </span>
+        {{- with .detail }}<span class="award__detail">{{ . }}</span>{{ end }}
+      </span>
+      {{- with .date }}<span class="award__date">{{ . }}</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

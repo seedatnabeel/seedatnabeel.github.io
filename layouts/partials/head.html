@@ -1,8 +1,84 @@
 <head>
   <meta charset="UTF-8" />
-  <title>{{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Site.Title }} - {{ .Title }}{{- end }}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description | safeHTML }}{{else}}{{.Description | safeHTML}}{{end}}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {{- $title := cond .IsHome site.Title (printf "%s — %s" .Title site.Title) }}
+  {{- $desc := cond .IsHome site.Params.description (.Description | default site.Params.description) }}
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc }}" />
+  <meta name="author" content="{{ site.Title }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
-  <link rel="stylesheet" href="/css/style.css" />
+
+  {{/* Set the theme before first paint so there is no flash of the wrong one. */}}
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preload" href="/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  {{- with resources.Get "css/main.css" }}
+    {{- $css := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+  {{- end }}
+
+  {{/* The nav hides the name until you scroll past the hero, which needs JS.
+       Without JS, keep it visible rather than permanently hidden. */}}
+  <noscript>
+    <style>
+      .nav[data-hero-visible="true"] .nav__name {
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+      }
+    </style>
+  </noscript>
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  {{/* Open Graph + Twitter cards, written out explicitly. */}}
+  {{- $ogImage := absURL (site.Params.ogImage | default site.Params.photo) }}
+  <meta property="og:site_name" content="{{ site.Title }}" />
+  <meta property="og:title" content="{{ $title }}" />
+  <meta property="og:description" content="{{ $desc }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:image" content="{{ $ogImage }}" />
+  <meta property="og:image:alt" content="{{ site.Title }} — {{ site.Params.role }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ $title }}" />
+  <meta name="twitter:description" content="{{ $desc }}" />
+  <meta name="twitter:image" content="{{ $ogImage }}" />
+  {{- with site.Params.twitterHandle }}
+  <meta name="twitter:site" content="@{{ . }}" />
+  <meta name="twitter:creator" content="@{{ . }}" />
+  {{- end }}
+
+  {{- if .IsHome }}
+  {{- $sameAs := slice }}
+  {{- range site.Params.social }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+  <script type="application/ld+json">
+    {{ dict
+      "@context" "https://schema.org"
+      "@type" "Person"
+      "name" site.Title
+      "url" site.BaseURL
+      "image" $ogImage
+      "email" (printf "mailto:%s" site.Params.email)
+      "jobTitle" site.Params.role
+      "description" site.Params.description
+      "sameAs" $sameAs
+      | jsonify (dict "indent" "  ")
+      | safeJS }}
+  </script>
+  {{- end }}
 </head>

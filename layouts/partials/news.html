@@ -1,0 +1,36 @@
+{{- with hugo.Data.news }}
+{{- $items := .items }}
+{{- $n := int (site.Params.newsRecent | default 8) }}
+{{- $recent := first (math.Min $n (len $items)) $items }}
+{{- $earlier := after (math.Min $n (len $items)) $items }}
+
+<section class="section container" id="news">
+  <h2 class="section__title">News</h2>
+
+  <div class="news">
+    {{- range $recent }}
+    <div class="news__item">
+      <div class="news__date">{{ .date }}</div>
+      <div class="news__body">{{ .body | markdownify }}</div>
+    </div>
+    {{- end }}
+  </div>
+
+  {{- with $earlier }}
+  <details class="news-more">
+    <summary>
+      <span class="news-more__show">Show {{ len . }} earlier item{{ if gt (len .) 1 }}s{{ end }}</span>
+      <span class="news-more__hide">Hide earlier items</span>
+    </summary>
+    <div class="news">
+      {{- range . }}
+      <div class="news__item">
+        <div class="news__date">{{ .date }}</div>
+        <div class="news__body">{{ .body | markdownify }}</div>
+      </div>
+      {{- end }}
+    </div>
+  </details>
+  {{- end }}
+</section>
+{{- end }}

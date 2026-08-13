@@ -1,0 +1,47 @@
+# Invited talks, newest first.
+# `venue` is the host, `topic` is the subject, `date` is when.
+
+items:
+  - venue: "GE Healthcare"
+    topic: "Synthetic data"
+    date: "Oct 2024"
+
+  - venue: "Nature Digital Medicine"
+    topic: "Generalization as a key challenge for Responsible AI"
+    date: "June 2024"
+
+  - venue: "Stanford"
+    topic: "An uncertainty estimation lens on Data-centric AI"
+    date: "June 2024"
+
+  - venue: "ICTP Advanced ML summer school"
+    topic: "Data-Centric AI"
+    date: "May 2024"
+
+  - venue: "Apple"
+    topic: "Data-Centric AI — Data characterization & Synthetic Data"
+    date: "April 2024"
+
+  - venue: "Microsoft Research Cambridge"
+    topic: "Data-Centric AI"
+    date: "November 2023"
+
+  - venue: "Future of Data-Centric AI Conference Talk"
+    topic: "Data-IQ"
+    date: "June 2023"
+
+  - venue: "Discovery Limited Invited Talk"
+    topic: "Data-Centric AI"
+    date: "Feb 2023"
+
+  - venue: "AstraZeneca AI Journal Club Invited Talk"
+    topic: "Data-Centric AI"
+    date: "Nov 2022"
+
+  - venue: "Queen Mary University London CogSci Invited Talk"
+    topic: "Data-Centric AI"
+    date: "Oct 2022"
+
+  - venue: "University of Cape Town Invited Talk"
+    topic: "Data-Centric AI"
+    date: "Oct 2022"

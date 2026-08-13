@@ -1,0 +1,51 @@
+{{- $data := hugo.Data.publications }}
+{{- if $data }}
+{{- $items := $data.items }}
+{{- $order := $data.topicOrder | default slice }}
+{{- $collapsed := $data.collapsedTopics | default slice }}
+
+{{- /* Topics used by entries but absent from topicOrder still render, appended
+       alphabetically, so a typo in a `topic:` field is visible rather than silent. */ -}}
+{{- $extra := slice }}
+{{- range $items }}
+  {{- $t := .topic | default "Other" }}
+  {{- if and (not (in $order $t)) (not (in $extra $t)) }}{{ $extra = $extra | append $t }}{{ end }}
+{{- end }}
+{{- $topics := $order | append (sort $extra) }}
+
+<section class="section container" id="publications">
+  <h2 class="section__title">Publications</h2>
+  <p class="note">
+    Please find some of my publications below (a more up-to-date list can be found on
+    <a href="https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ" target="_blank" rel="noopener">google scholar</a>).
+    &ldquo;*&rdquo; denotes equal contribution.
+  </p>
+
+  {{- with where $items "highlight" true }}
+  <details class="pubgroup" open>
+    <summary class="pubgroup__head">
+      <h3 class="pubgroup__name">Selected</h3>
+      <span class="pubgroup__count">{{ len . }}</span>
+    </summary>
+    <ul class="pubs">
+      {{- range . }}{{ partial "pub.html" . }}{{ end }}
+    </ul>
+  </details>
+  {{- end }}
+
+  {{- range $topic := $topics }}
+    {{- $group := sort (where $items "topic" $topic) "year" "desc" }}
+    {{- with $group }}
+  <details class="pubgroup"{{ if not (in $collapsed $topic) }} open{{ end }}>
+    <summary class="pubgroup__head">
+      <h3 class="pubgroup__name">{{ $topic }}</h3>
+      <span class="pubgroup__count">{{ len . }}</span>
+    </summary>
+    <ul class="pubs">
+      {{- range . }}{{ partial "pub.html" . }}{{ end }}
+    </ul>
+  </details>
+    {{- end }}
+  {{- end }}
+</section>
+{{- end }}

@@ -1,1 +1,8 @@
-{{ define "main" }} {{ .Content }} {{ end }}
+{{ define "main" }}
+{{ partial "hero.html" . }}
+{{ partial "publications.html" . }}
+{{ partial "awards.html" . }}
+{{ partial "news.html" . }}
+{{ partial "video.html" . }}
+{{ partial "talks.html" . }}
+{{ end }}

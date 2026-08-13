@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode }}">
+<html lang="{{ site.Language.Locale | default "en" }}">
   {{ partial "head.html" . }}
-  <body>
-    {{ partial "header.html" . }}
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    {{ partial "nav.html" . }}
 
-    <main>{{ block "main" . }}{{ end }}</main>
+    <main id="main">{{ block "main" . }}{{ end }}</main>
 
     {{ partial "footer.html" . }}
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var nav = document.getElementById("nav");
+
+        /* Theme toggle — persists the choice, otherwise follows the OS. */
+        var btn = document.getElementById("theme-toggle");
+        if (btn) {
+          btn.addEventListener("click", function () {
+            var isDark =
+              root.getAttribute("data-theme") === "dark" ||
+              (!root.hasAttribute("data-theme") &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches);
+            var next = isDark ? "light" : "dark";
+            root.setAttribute("data-theme", next);
+            try {
+              localStorage.setItem("theme", next);
+            } catch (e) {}
+          });
+        }
+
+        /* Show the name in the nav only once the hero heading has scrolled away,
+           and add a hairline rule when the nav is no longer at the top. */
+        var hero = document.getElementById("hero-name");
+        if (nav && hero && "IntersectionObserver" in window) {
+          new IntersectionObserver(
+            function (entries) {
+              var visible = entries[0].isIntersecting;
+              nav.setAttribute("data-hero-visible", visible ? "true" : "false");
+              nav.setAttribute("data-stuck", visible ? "false" : "true");
+            },
+            { rootMargin: "-56px 0px 0px 0px" }
+          ).observe(hero);
+        } else if (nav) {
+          nav.setAttribute("data-hero-visible", "false");
+        }
+      })();
+    </script>
   </body>
 </html>

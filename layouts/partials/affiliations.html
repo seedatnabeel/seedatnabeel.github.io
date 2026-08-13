@@ -1,0 +1,38 @@
+{{- with site.Params.affiliations }}
+<div class="affils">
+  {{- range $i, $a := . }}
+  {{- if $i }}<span class="affils__sep" aria-hidden="true"></span>{{ end }}
+  <div class="affil">
+    {{- /* Only emit an <img> if the file actually exists in assets/images/,
+           otherwise fall back to a text badge. No broken images, no inline JS. */ -}}
+    {{- $logo := "" }}
+    {{- with $a.logo }}{{ $logo = resources.Get (printf "images/%s" .) }}{{ end }}
+    {{- if $logo }}
+      {{- $s := $logo.Fit "160x160" }}
+    <span class="affil__chip">
+      <img
+        class="affil__logo"
+        src="{{ $s.RelPermalink }}"
+        width="{{ $s.Width }}"
+        height="{{ $s.Height }}"
+        alt="{{ $a.org }} logo"
+        loading="lazy"
+      />
+    </span>
+    {{- else }}
+    <span class="affil__badge">{{ $a.abbr | default (upper (substr $a.org 0 3)) }}</span>
+    {{- end }}
+
+    <span class="affil__text">
+      {{- with $a.role }}<strong class="affil__role">{{ . }}</strong>{{ end }}
+      {{- with $a.org }}
+      <span class="affil__org">
+        {{- if $a.url }}<a href="{{ $a.url }}" target="_blank" rel="noopener">{{ . }}</a>
+        {{- else }}{{ . }}{{ end }}
+      </span>
+      {{- end }}
+    </span>
+  </div>
+  {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,17 @@
+{{- with hugo.Data.talks }}
+<section class="section container" id="talks">
+  <h2 class="section__title">Invited talks</h2>
+
+  <ul class="talks">
+    {{- range .items }}
+    <li class="talk">
+      <span>
+        <span class="talk__venue">{{ .venue }}</span>
+        {{- with .topic }}<span class="talk__topic">{{ . }}</span>{{ end }}
+      </span>
+      {{- with .date }}<span class="talk__date">{{ . }}</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

@@ -45,3 +45,8 @@ yarn-error.log*
 
 .prettierrc
 .prettierignore
+
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock

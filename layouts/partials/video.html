@@ -1,0 +1,87 @@
+{{- with site.Params.video }}
+{{- $raw := .url | default "" }}
+{{- if $raw }}
+
+{{- /* Work out the provider, the embed URL, and the player shape. */ -}}
+{{- $embed := "" }}
+{{- $aspect := "16 / 9" }}
+
+{{- if strings.Contains $raw "slideslive.com" }}
+  {{- /* https://slideslive.com/39013504[/slug] -> /embed/presentation/39013504 */ -}}
+  {{- $id := "" }}
+  {{- range (split (replaceRE `^https?://[^/]+/` "" $raw) "/") }}
+    {{- if and (not $id) (findRE `^[0-9]+$` .) }}{{ $id = . }}{{ end }}
+  {{- end }}
+  {{- if $id }}
+    {{- $embed = printf "https://slideslive.com/embed/presentation/%s" $id }}
+    {{- /* SlidesLive's player is slides + speaker side by side, not 16:9. */ -}}
+    {{- $aspect = "500 / 199" }}
+  {{- end }}
+
+{{- else }}
+  {{- /* YouTube: accept a watch URL, youtu.be, an /embed/ URL, or a bare ID. */ -}}
+  {{- $id := $raw }}
+  {{- if strings.Contains $raw "v=" }}
+    {{- $id = index (split (index (split $raw "v=") 1) "&") 0 }}
+  {{- else if strings.Contains $raw "youtu.be/" }}
+    {{- $id = index (split (index (split $raw "youtu.be/") 1) "?") 0 }}
+  {{- else if strings.Contains $raw "/embed/" }}
+    {{- $id = index (split (index (split $raw "/embed/") 1) "?") 0 }}
+  {{- end }}
+  {{- with strings.TrimSuffix "/" $id }}
+    {{- $embed = printf "https://www.youtube-nocookie.com/embed/%s" . }}
+  {{- end }}
+{{- end }}
+
+{{- with .aspect }}{{ $aspect = . }}{{ end }}
+
+<section class="section container" id="talk-video">
+  <h2 class="section__title">{{ .heading | default "Featured talk" }}</h2>
+
+  <figure class="video">
+    {{- if .poster }}
+      {{- /* Click-through card, for providers that refuse to be framed
+             (SlidesLive allows embedding only on neurips.cc and its own sites). */ -}}
+      {{- $poster := .poster }}
+      {{- $src := $poster }}
+      {{- $w := 0 }}{{ $h := 0 }}
+      {{- if not (or (hasPrefix $poster "/") (hasPrefix $poster "http")) }}
+        {{- with resources.Get (printf "images/%s" $poster) }}
+          {{- $o := .Process "resize 1200x webp q82" }}
+          {{- $src = $o.RelPermalink }}{{ $w = $o.Width }}{{ $h = $o.Height }}
+        {{- end }}
+      {{- end }}
+    <a class="video__card" href="{{ .link | default $raw }}" target="_blank" rel="noopener">
+      <img src="{{ $src }}"{{ if $w }} width="{{ $w }}" height="{{ $h }}"{{ end }}
+        alt="{{ .title | default "Talk" }}" loading="lazy" />
+      <span class="video__play" aria-hidden="true"></span>
+      <span class="video__cardlabel">Watch on {{ .provider | default "the host site" }}</span>
+    </a>
+    {{- else if $embed }}
+    <div class="video__frame" style="{{ printf "aspect-ratio: %s;" $aspect | safeCSS }}">
+      {{/* Lazy, so it costs nothing until scrolled into view. */}}
+      <iframe
+        src="{{ $embed }}"
+        title="{{ .title | default "Video" }}"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    {{- end }}
+
+    {{- if or .title .caption }}
+    <figcaption class="video__caption">
+      {{- with .title }}
+      <span class="video__title">
+        {{- if $raw }}<a href="{{ $raw }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+      </span>
+      {{- end }}
+      {{- with .caption }}<span class="video__desc">{{ . }}</span>{{ end }}
+    </figcaption>
+    {{- end }}
+  </figure>
+</section>
+{{- end }}
+{{- end }}

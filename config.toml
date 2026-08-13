@@ -1,12 +1,118 @@
-baseURL = 'https://seedatnabeel.github.io'
-languageCode = 'en-us'
+baseURL = 'https://nabeelseedat.com/'
+locale = 'en-us'
 title = 'Nabeel Seedat'
-theme = "hugo-xmin"
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 
-[Params]
-  description = "Nabeel Seedat' personal homepage."
-  footer = "[[twitter](https://twitter.com/NabeelSeedat01)] | [[scholar](https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ)] | [[github](https://github.com/seedatnabeel)] | [[linkedin](https://linkedin.com/in/nabeel-seedat)]"
-  
+# NOTE: every plain key must stay above the [params.*] sub-tables below.
+# In TOML, keys after a sub-table header belong to that table, not to [params].
+[params]
+  description = "Lead Research Scientist at Thomson Reuters Foundational Research, leading LLM Evaluations for Thomson-1. Research on LLM evaluation, verification and agents."
+
+  # Used for JSON-LD jobTitle and the OG image alt text. Only rendered under
+  # your name in the header if no affiliations are set below.
+  role = "Lead Research Scientist, Thomson Reuters Foundational Research"
+
+  email = "ns741@cam.ac.uk"
+  photo = "nabeel.jpg"
+  ogImage = "/og.png"
+
+  # Used for the twitter:site and twitter:creator card tags.
+  twitterHandle = "NabeelSeedat01"
+
+  # Number of news items shown before the "Show earlier news" expander.
+  newsRecent = 8
+
+  # Drop a PDF in static/ and set this to make the CV link appear in the nav
+  # and footer. Left unset for now, so no broken link is rendered.
+  # cv = "/nabeel-seedat-cv.pdf"
+
+  # Shown as a highlighted block under the bio. Ordered to match where the
+  # recent publication record actually sits: 8 of the 12 papers from 2025
+  # onwards are LLM evaluation / agents work. Generic "Large Language Models"
+  # was dropped as redundant once the three LLM-specific entries exist.
+  interests = [
+    "LLM Evaluation",
+    "LLM Agents & Verification",
+    "LLM Reasoning",
+    "Data-Centric AI",
+    "Responsible AI & Alignment",
+    "Uncertainty Quantification",
+    "Synthetic Data",
+  ]
+
+# --- sub-tables: nothing above this line may move below it -------------------
+
+# Affiliations row, shown under your name in the header.
+#
+# TODO: you mentioned "two affiliations" — only Thomson Reuters is set. Add the
+# second block below (the snippet you pasted suggested Imperial College London
+# or the Oxford Internet Institute).
+#
+# `logo` is a filename in assets/images/. If that file is absent, a text badge
+# using `abbr` is rendered instead, so a missing logo never shows as broken.
+[[params.affiliations]]
+  role = "Lead Research Scientist"
+  org = "Thomson Reuters Foundational Research"
+  abbr = "TR"
+  logo = "thomsonreuters.png"
+  url = "https://www.thomsonreuters.com/"
+
+# Featured talk, shown between the bio and the publications.
+#
+# `url` accepts a YouTube link (watch / youtu.be / embed / bare ID) or a
+# SlidesLive presentation link. Leave it empty and the section is skipped.
+#
+# `aspect` overrides the player shape. Defaults per provider: 16/9 for YouTube,
+# 500/199 for SlidesLive (their slides-plus-speaker player is much wider).
+#
+# `poster` + `link` render a click-through card instead of an inline player —
+# used when a provider refuses to be embedded on other domains.
+[params.video]
+  heading = "Featured talk"
+  url = "https://slideslive.com/39013504"
+  title = "Data-Centric AI for reliable and responsible AI: from theory to practice"
+  caption = "NeurIPS 2023 Tutorial, with Isabelle Guyon and Mihaela van der Schaar."
+  # SlidesLive refuses to be embedded off its own domains, so this renders as a
+  # click-through card. Thumbnail is SlidesLive's own, served locally.
+  poster = "talk-neurips2023.png"
+  provider = "SlidesLive"
+
+# Shown in the header and footer, in this order.
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/NabeelSeedat01"
+[[params.social]]
+  name = "scholar"
+  url = "https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ"
+[[params.social]]
+  name = "github"
+  url = "https://github.com/seedatnabeel"
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/nabeel-seedat"
+
+# Anchor nav. Weights control order.
+[[menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 1
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
+[[menu.main]]
+  name = "Awards"
+  url = "#awards"
+  weight = 3
+[[menu.main]]
+  name = "News"
+  url = "#news"
+  weight = 4
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 5

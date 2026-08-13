@@ -1,0 +1,32 @@
+{{- /* Renders a single publication entry. Context: one item from data/publications.yaml */ -}}
+<li class="pub">
+  <h4 class="pub__title">{{ .title }}</h4>
+
+  {{- with .authors }}
+  <p class="pub__authors">
+    {{- range $i, $a := . }}
+      {{- if $i }}, {{ end }}
+      {{- if in $a "N. Seedat" }}<span class="pub__me">{{ $a }}</span>
+      {{- else }}{{ $a }}{{ end }}
+    {{- end }}
+  </p>
+  {{- end }}
+
+  <p class="pub__meta">
+    {{- with .venue }}<span class="pub__venue">{{ . }}</span>{{ end }}
+    {{- if .preprint }}<span class="pub__tag">Preprint</span>{{ end }}
+    {{- with .links }}
+      {{- $links := . }}
+      {{- $order := slice "paper" "code" "bibtex" "website" "project" "slides" "poster" "video" }}
+    <span class="pub__links">
+      {{- range $k := $order }}
+        {{- with index $links $k }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $k }}</a>{{ end }}
+      {{- end }}
+      {{- /* Any link kinds not in the preferred order, alphabetically. */ -}}
+      {{- range $k, $v := $links }}
+        {{- if not (in $order $k) }}<a href="{{ $v }}" target="_blank" rel="noopener">{{ $k }}</a>{{ end }}
+      {{- end }}
+    </span>
+    {{- end }}
+  </p>
+</li>

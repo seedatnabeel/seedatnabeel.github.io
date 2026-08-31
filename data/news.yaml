@@ -5,16 +5,13 @@
 # "Show earlier news" expander.
 
 items:
-  # Dates below are month-level. Conference months (ICLR April, ICML July,
-  # EMNLP November, EurIPS December) and the Thomson-1 announcement are
-  # documented; the rest come from what you told me. Adjust as needed.
   - date: "Aug 2026"
     body: |-
-      🚀 **Thomson-1** is here! Really proud of what the team has built --- Thomson Reuters' own frontier-class foundation model, trained on decades of authoritative content from Westlaw, Practical Law, Checkpoint and Reuters. It benchmarks competitively with **Claude Opus 4.8** and ahead of **GPT-5.5**, **Claude Sonnet 5** and **Gemini 3.1 Pro** on legal and general-domain evaluations --- at a fraction of the size and training cost. I lead **LLM Evaluations** for the model. Read the [announcement](https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/).
+      🚀 **Thomson-1** is here! Really proud of what the team has built. We show how institutions can take large open-weight models and specialize them for a domain, without losing general capabilities. Thomson-1 benchmarks competitively with the frontier, including **Claude Opus 4.8** and ahead of **GPT-5.5**, **Claude Sonnet 5** and **Gemini 3.1 Pro** on legal and general-domain evaluations, at a fraction of the size and training cost. I lead **LLM Evaluations** for the model. Read the [tech report](https://arxiv.org/abs/2608.27147).
 
   - date: "July 2026"
     body: |-
-      Two papers at [**ICML 2026**](https://icml.cc/) 🥳 **Influence-Guided Symbolic Regression** on LLM-driven equation search for scientific discovery, and **To Whom Do Language Models Align?** at the Pluralistic Alignment Workshop.
+      Five papers at [**ICML 2026**](https://icml.cc/) 🥳 2 on the main track and 3 workshops covering diverse areas spanning AI Agent Verification, LLM Alignment, AI for scientific discovery and new benchmarks for Legal AI.
 
   - date: "April 2026"
     body: |-
@@ -22,7 +19,7 @@ items:
 
   - date: "Jan 2026"
     body: |-
-      🎓 Completed my PhD in Machine Learning at the **University of Cambridge**! My thesis, _Data-Centric AI for Reliable and Trustworthy Machine Learning_, was supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com).
+      🎓 Defended my PhD in Machine Learning at the **University of Cambridge**! My thesis, _Data-Centric AI for Reliable and Trustworthy Machine Learning_, was supervised by Prof. [Mihaela van der Schaar](https://www.vanderschaar-lab.com).
 
   - date: "Dec 2025"
     body: |-
@@ -38,7 +35,7 @@ items:
 
   - date: "May 2025"
     body: |-
-      Excited to share that I have joined [**Thomson Reuters**](https://www.thomsonreuters.com/) Foundational Research as a **Lead Research Scientist**, leading research on **LLM Evaluations** for Thomson Reuters' foundation model 🎉
+      Excited to share that I have joined [**Thomson Reuters**](https://www.thomsonreuters.com/) Foundational Research as a **Senior Research Scientist**, leading research on **LLM Evaluations** for Thomson Reuters' foundation model 🎉
 
   - date: "April 2025"
     body: |-

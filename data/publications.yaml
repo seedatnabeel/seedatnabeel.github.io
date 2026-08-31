@@ -23,8 +23,9 @@ collapsedTopics:
   - "Thesis"
 
 topicOrder:
+  - "Foundation Models"
   - "LLM Evaluation & Verification"
-  - "LLM Agents, Reasoning & Programs"
+  - "LLM Agents & Reasoning"
   - "Data-Centric AI"
   - "Uncertainty Quantification"
   - "Synthetic Data"
@@ -35,6 +36,18 @@ topicOrder:
   - "Thesis"
 
 items:
+  # === Foundation Models ================================
+
+  - title: "Thomson: Continual Learning of Frontier Models for SovereignAI"
+    authors: ["S. Chen*", "J. Parker*", "Y. Bang*", "A. M. Bean*", "N. Seedat*", "S. Winzeck", "D. Glazko", "J. Zgraggen", "F. Yu", "S. Arnott", "D. Trautmann", "L. Ciuffreda", "G. Bonifazi", "D. Romano", "B. Bell", "K. Fielding", "D. Giofrè", "T. Zielund", "I. Chatterjee", "S. M. Ghantasala", "M. Nanreh", "J. Scoville", "M. Sakowicz", "W. Seifeddine", "L. Thede", "J. R. Schwarz"]
+    venue: "arXiv"
+    year: 2026
+    preprint: true
+    highlight: true
+    topic: "Foundation Models"
+    links:
+      paper: "https://arxiv.org/abs/2608.27147"
+
   # === LLM Evaluation & Verification =======================================
   - title: "Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification"
     authors: ["Y. Zhang", "N. Seedat", "Y. Dong", "P. Cui", "J. Zhu", "M. van der Schaar"]
@@ -51,6 +64,22 @@ items:
     topic: "LLM Evaluation & Verification"
     links:
       paper: "https://arxiv.org/abs/2605.12120"
+
+  - title: "InsufficiencyBench: Evaluating LLM Legal Advice on Underspecified User Queries"
+    authors: ["S. J. Vincent", "D. Calloway", "F. Yu", "A. M. Bean*", "N. Seedat*"]
+    venue: "ICML 2026 AI4Law Workshop (Oral)"
+    year: 2026
+    topic: "LLM Evaluation & Verification"
+    links:
+      paper: "https://arxiv.org/abs/2608.20220"
+
+  - title: "ContractScrub: A Benchmark for Final Review of Legal Contracts"
+    authors: ["Y. Bang", "K. Fielding", "B. Oliver", "B. Birke", "N. Seedat*", "A. M. Bean*"]
+    venue: "ICML 2026 AI4Law Workshop"
+    year: 2026
+    topic: "LLM Evaluation & Verification"
+    links:
+      paper: "https://arxiv.org/abs/2608.20204"
 
   - title: "Scales++: Compute Efficient Evaluation Subset Selection with Cognitive Scales Embeddings"
     authors: ["A. M. Bean", "N. Seedat", "S. Chen", "J. R. Schwarz"]
@@ -77,13 +106,13 @@ items:
     links:
       paper: "https://arxiv.org/pdf/2410.24005"
 
-  # === LLM Agents, Reasoning & Programs ===================================
+  # === LLM Agents & Reasoning ===================================
   - title: "Step-by-Step Optimization-like Reasoning in LLMs over Expanding Search Spaces"
     authors: ["N. Astorga", "N. Seedat", "M. van der Schaar"]
     venue: "arXiv"
     year: 2026
     preprint: true
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2606.05464"
 
@@ -91,7 +120,7 @@ items:
     authors: ["E. Saveliev", "S. Holt", "N. Seedat", "D. L. Bentley", "J. Weatherall", "M. van der Schaar"]
     venue: "ICML 2026"
     year: 2026
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2605.29184"
 
@@ -99,7 +128,7 @@ items:
     authors: ["N. Seedat", "M. van der Schaar"]
     venue: "ICML 2025"
     year: 2025
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://proceedings.mlr.press/v267/seedat25a.html"
 
@@ -107,7 +136,7 @@ items:
     authors: ["N. Seedat", "J. Liu", "M. van der Schaar"]
     venue: "ICLR 2025 Workshop on Data Problems for Foundation Models"
     year: 2025
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2511.01015"
 
@@ -115,16 +144,15 @@ items:
     authors: ["N. Seedat", "M. van der Schaar"]
     venue: "NeurIPS 2024 GenAI for Health & TRL Workshops"
     year: 2024
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2410.24105"
-      code: "https://github.com/seedatnabeel/Matchmaker"
 
   - title: "Large Language Models to Enhance Bayesian Optimization"
     authors: ["T. Liu", "N. Astorga", "N. Seedat", "M. van der Schaar"]
     venue: "ICLR 2024"
     year: 2024
-    topic: "LLM Agents, Reasoning & Programs"
+    topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2402.03921"
 
@@ -160,7 +188,6 @@ items:
     topic: "Data-Centric AI"
     links:
       paper: "https://arxiv.org/abs/2406.13733"
-      code: "https://github.com/seedatnabeel/DIPS"
 
   - title: "Dissecting Sample Hardness: A Fine-Grained Analysis of Hardness Characterization Methods for Data-Centric AI"
     authors: ["N. Seedat", "F. Imrie", "M. van der Schaar"]
@@ -169,7 +196,6 @@ items:
     topic: "Data-Centric AI"
     links:
       paper: "https://arxiv.org/abs/2403.04551"
-      code: "https://github.com/seedatnabeel/H-CAT"
 
   - title: "When is Off-Policy Evaluation (Reward Modeling) Useful in Contextual Bandits? A Data-Centric Perspective"
     authors: ["H. Sun", "A. Chan", "N. Seedat", "A. Huyuk", "M. van der Schaar"]
@@ -202,7 +228,6 @@ items:
     topic: "Data-Centric AI"
     links:
       paper: "https://arxiv.org/abs/2310.18970"
-      code: "https://github.com/seedatnabeel/TRIAGE"
 
   - title: "Data-IQ: Characterizing subgroups with heterogeneous outcomes in tabular data"
     authors: ["N. Seedat", "J. Crabbé", "I. Bica", "M. van der Schaar"]
@@ -211,7 +236,6 @@ items:
     topic: "Data-Centric AI"
     links:
       paper: "https://arxiv.org/pdf/2210.13043.pdf"
-      code: "https://github.com/seedatnabeel/Data-IQ"
 
   - title: "Data-SUITE: Data-centric identification of in-distribution incongruous examples"
     authors: ["N. Seedat", "J. Crabbé", "M. van der Schaar"]
@@ -220,7 +244,6 @@ items:
     topic: "Data-Centric AI"
     links:
       paper: "https://icml.cc/virtual/2022/spotlight/17080"
-      code: "https://github.com/seedatnabeel/Data-SUITE"
 
   # === Uncertainty Quantification =========================================
   - title: "Active Learning with LLMs for Partially Observed and Cost-Aware Scenarios"
@@ -270,7 +293,6 @@ items:
     topic: "Uncertainty Quantification"
     links:
       paper: "https://proceedings.mlr.press/v206/seedat23a/seedat23a.pdf"
-      code: "https://github.com/seedatnabeel/SSCP"
 
   - title: "MCU-Net: A framework towards uncertainty representations for decision support system patient referrals in healthcare contexts"
     authors: ["N. Seedat"]
@@ -279,7 +301,6 @@ items:
     topic: "Uncertainty Quantification"
     links:
       paper: "https://arxiv.org/abs/2007.03995"
-      code: "https://github.com/seedatnabeel/Uncertainty-Decision-Support-Healthcare"
 
   - title: "Towards calibrated and scalable uncertainty representations for neural networks"
     authors: ["N. Seedat", "C. Kanan"]
@@ -297,7 +318,6 @@ items:
     topic: "Synthetic Data"
     links:
       paper: "https://arxiv.org/abs/2312.12112"
-      code: "https://github.com/seedatnabeel/CLLM"
 
   - title: "Can You Rely on Your Model Evaluation? Improving Model Evaluation with Synthetic Test Data"
     authors: ["N. Seedat*", "B. van Breugel*", "F. Imrie", "M. van der Schaar"]
@@ -306,7 +326,6 @@ items:
     topic: "Synthetic Data"
     links:
       paper: "https://arxiv.org/pdf/2310.16524.pdf"
-      code: "https://github.com/seedatnabeel/3S-Testing"
 
   - title: "Reimagining Synthetic Tabular Data Generation through Data-Centric AI: A Comprehensive Benchmark"
     authors: ["L. Hansen*", "N. Seedat*", "M. van der Schaar", "A. Petrovic"]
@@ -366,7 +385,6 @@ items:
     topic: "Causal Inference & Structure Learning"
     links:
       paper: "https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf"
-      code: "https://github.com/seedatnabeel/TE-CDE"
 
   # === Biomedical Signal Processing & Applied ML ==========================
   - title: "PEMS: Custom Neural Machine Translation System—Making subtitling of Portuguese TV shows and movies on the African continent work"

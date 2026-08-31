@@ -16,7 +16,7 @@ disableKinds = ['taxonomy', 'term']
   # your name in the header if no affiliations are set below.
   role = "Lead Research Scientist, Thomson Reuters Foundational Research"
 
-  email = "ns741@cam.ac.uk"
+  email = "seedatnabeel@gmail.com"
   photo = "nabeel.jpg"
   ogImage = "/og.png"
 

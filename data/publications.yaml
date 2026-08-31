@@ -42,8 +42,6 @@ items:
     authors: ["S. Chen*", "J. Parker*", "Y. Bang*", "A. M. Bean*", "N. Seedat*", "S. Winzeck", "D. Glazko", "J. Zgraggen", "F. Yu", "S. Arnott", "D. Trautmann", "L. Ciuffreda", "G. Bonifazi", "D. Romano", "B. Bell", "K. Fielding", "D. Giofrè", "T. Zielund", "I. Chatterjee", "S. M. Ghantasala", "M. Nanreh", "J. Scoville", "M. Sakowicz", "W. Seifeddine", "L. Thede", "J. R. Schwarz"]
     venue: "arXiv"
     year: 2026
-    preprint: true
-    highlight: true
     topic: "Foundation Models"
     links:
       paper: "https://arxiv.org/abs/2608.27147"

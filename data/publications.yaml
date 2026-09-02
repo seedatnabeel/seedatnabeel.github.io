@@ -12,13 +12,12 @@
 #   year      — used to order entries within a topic, newest first.
 #   preprint  — renders a small "Preprint" tag; use for arXiv-only work.
 #   links     — open map. `paper`, `code`, `bibtex`, `slides`, `poster`,
-#               `video`, `project` all render automatically.
+#               `video`, `project`, `website` all render automatically.
 #   highlight — set true on a few entries to surface a "Selected" group on top.
 
 # Groups listed here render collapsed; everything else opens by default.
 collapsedTopics:
   - "Causal Inference & Structure Learning"
-  - "Biomedical Signal Processing & Applied ML"
   - "Tutorials"
   - "Thesis"
 
@@ -27,16 +26,16 @@ topicOrder:
   - "LLM Evaluation & Verification"
   - "LLM Agents & Reasoning"
   - "Data-Centric AI"
-  - "Uncertainty Quantification"
+  - "Trustworthy ML & Uncertainty Estimation"
   - "Synthetic Data"
-  - "Healthcare & Responsible AI"
+  - "AI for Healthcare & Biomedical Engineering"
   - "Causal Inference & Structure Learning"
-  - "Biomedical Signal Processing & Applied ML"
   - "Tutorials"
   - "Thesis"
 
 items:
-  # === Foundation Models ================================
+
+  # === Foundation Models ===================================================
 
   - title: "Thomson: Continual Learning of Frontier Models for SovereignAI"
     authors: ["S. Chen*", "J. Parker*", "Y. Bang*", "A. M. Bean*", "N. Seedat*", "S. Winzeck", "D. Glazko", "J. Zgraggen", "F. Yu", "S. Arnott", "D. Trautmann", "L. Ciuffreda", "G. Bonifazi", "D. Romano", "B. Bell", "K. Fielding", "D. Giofrè", "T. Zielund", "I. Chatterjee", "S. M. Ghantasala", "M. Nanreh", "J. Scoville", "M. Sakowicz", "W. Seifeddine", "L. Thede", "J. R. Schwarz"]
@@ -46,7 +45,9 @@ items:
     links:
       paper: "https://arxiv.org/abs/2608.27147"
 
-  # === LLM Evaluation & Verification =======================================
+
+  # === LLM Evaluation & Verification ======================================
+
   - title: "Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification"
     authors: ["Y. Zhang", "N. Seedat", "Y. Dong", "P. Cui", "J. Zhu", "M. van der Schaar"]
     venue: "ICML 2026 & ICLR 2026 AIWILD Workshop (Best Paper)"
@@ -104,7 +105,9 @@ items:
     links:
       paper: "https://arxiv.org/pdf/2410.24005"
 
-  # === LLM Agents & Reasoning ===================================
+
+  # === LLM Agents & Reasoning ==============================================
+
   - title: "Step-by-Step Optimization-like Reasoning in LLMs over Expanding Search Spaces"
     authors: ["N. Astorga", "N. Seedat", "M. van der Schaar"]
     venue: "arXiv"
@@ -122,6 +125,14 @@ items:
     links:
       paper: "https://arxiv.org/abs/2605.29184"
 
+  - title: "Tables2Traces: Distilling Tabular Data to Improve LLM Reasoning in Healthcare"
+    authors: ["M. Werling", "N. Seedat", "J. Liu", "L. Grønlykke", "C. U. Niemann", "M. van der Schaar", "R. Agius"]
+    venue: "EurIPS 2025 Workshop on AI for Tabular Data"
+    year: 2025
+    topic: "LLM Agents & Reasoning"
+    links:
+      paper: "https://openreview.net/forum?id=zbC9HXAxaw"
+
   - title: "Bootstrapping Self-Improvement of Language Model Programs for Zero-Shot Schema Matching"
     authors: ["N. Seedat", "M. van der Schaar"]
     venue: "ICML 2025"
@@ -137,6 +148,14 @@ items:
     topic: "LLM Agents & Reasoning"
     links:
       paper: "https://arxiv.org/abs/2511.01015"
+
+  - title: "Towards Human-Guided, Data-Centric LLM Co-Pilots"
+    authors: ["E. Saveliev*", "J. Liu*", "N. Seedat*", "A. Boyd", "M. van der Schaar"]
+    venue: "Journal of Data-centric Machine Learning Research (DMLR) & ICLR 2025 DATA-FM Workshop"
+    year: 2025
+    topic: "LLM Agents & Reasoning"
+    links:
+      paper: "https://data.mlr.press/assets/pdf/v02-28.pdf"
 
   - title: "Matchmaker: Self-Improving Large Language Model Programs for Schema Matching"
     authors: ["N. Seedat", "M. van der Schaar"]
@@ -154,7 +173,17 @@ items:
     links:
       paper: "https://arxiv.org/abs/2402.03921"
 
-  # === Data-Centric AI ====================================================
+
+  # === Data-Centric AI =====================================================
+
+  - title: "Position: What's the next frontier for Data-centric AI? Data Savvy Agents!"
+    authors: ["N. Seedat", "J. Liu", "M. van der Schaar"]
+    venue: "ICLR 2025 Workshop on Data Problems for Foundation Models"
+    year: 2025
+    topic: "Data-Centric AI"
+    links:
+      paper: "https://arxiv.org/abs/2511.01015"
+
   - title: "Towards Human-Guided, Data-Centric LLM Co-Pilots"
     authors: ["E. Saveliev*", "J. Liu*", "N. Seedat*", "A. Boyd", "M. van der Schaar"]
     venue: "Journal of Data-centric Machine Learning Research (DMLR) & ICLR 2025 DATA-FM Workshop"
@@ -219,6 +248,14 @@ items:
     links:
       paper: "https://ieeexplore.ieee.org/abstract/document/10372382"
 
+  - title: "Curated LLM: Synergy of LLMs and Data Curation for tabular augmentation in ultra low-data regimes"
+    authors: ["N. Seedat*", "N. Huynh*", "B. van Breugel", "M. van der Schaar"]
+    venue: "ICML 2024"
+    year: 2024
+    topic: "Data-Centric AI"
+    links:
+      paper: "https://arxiv.org/abs/2312.12112"
+
   - title: "TRIAGE: Characterizing and auditing training data for improved regression"
     authors: ["N. Seedat", "J. Crabbé", "Z. Qian", "M. van der Schaar"]
     venue: "NeurIPS 2023"
@@ -243,12 +280,30 @@ items:
     links:
       paper: "https://icml.cc/virtual/2022/spotlight/17080"
 
-  # === Uncertainty Quantification =========================================
+  - title: "Modeling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing"
+    authors: ["H. Liu*", "N. Seedat*", "J. Ive"]
+    venue: "Frontiers in Artificial Intelligence, 2024"
+    year: 2024
+    topic: "Data-Centric AI"
+    links:
+      paper: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1374162/full"
+
+
+  # === Trustworthy ML & Uncertainty Estimation =============================
+
+  - title: "Generalization—a key challenge for responsible AI in patient-facing clinical applications"
+    authors: ["L. Goetz*", "N. Seedat*", "R. Vandersluis", "M. van der Schaar"]
+    venue: "npj Digital Medicine, 2024"
+    year: 2024
+    topic: "Trustworthy ML & Uncertainty Estimation"
+    links:
+      paper: "https://www.nature.com/articles/s41746-024-01127-3"
+
   - title: "Active Learning with LLMs for Partially Observed and Cost-Aware Scenarios"
     authors: ["N. Astorga", "T. Liu", "N. Seedat", "M. van der Schaar"]
     venue: "NeurIPS 2024"
     year: 2024
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/24f3041067ab24157912330344dc3bbd-Abstract-Conference.html"
 
@@ -256,7 +311,7 @@ items:
     authors: ["T. Pouplin", "A. Jeffares", "N. Seedat", "M. van der Schaar"]
     venue: "ICML 2024"
     year: 2024
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://arxiv.org/abs/2406.03258"
 
@@ -264,7 +319,7 @@ items:
     authors: ["E. Heremans", "N. Seedat", "B. Buyse", "D. Testelmans", "M. van der Schaar", "M. De Vos"]
     venue: "Computers in Biology and Medicine, Vol 171, 2024"
     year: 2024
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://www.sciencedirect.com/science/article/pii/S0010482524002890"
 
@@ -272,15 +327,23 @@ items:
     authors: ["E. Heremans", "N. Seedat", "B. Buyse", "D. Testelmans", "M. van der Schaar", "M. De Vos"]
     venue: "Journal of Sleep Research, 2024"
     year: 2024
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://doi.org/10.1111/jsr.14300"
+
+  - title: "Self-Healing Machine Learning: A Framework for Autonomous Adaptation in Real-World Environments"
+    authors: ["P. Rauba", "N. Seedat", "K. Kacprzyk", "M. van der Schaar"]
+    venue: "NeurIPS 2024"
+    year: 2024
+    topic: "Trustworthy ML & Uncertainty Estimation"
+    links:
+      paper: "https://arxiv.org/abs/2411.00186"
 
   - title: "What is Flagged in Uncertainty Quantification? Latent Density Models for Uncertainty Categorization"
     authors: ["H. Sun", "B. van Breugel", "J. Crabbé", "N. Seedat", "M. van der Schaar"]
     venue: "NeurIPS 2023"
     year: 2023
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://arxiv.org/pdf/2207.05161.pdf"
 
@@ -288,7 +351,7 @@ items:
     authors: ["N. Seedat*", "A. Jeffares*", "F. Imrie", "M. van der Schaar"]
     venue: "AISTATS 2023"
     year: 2023
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://proceedings.mlr.press/v206/seedat23a/seedat23a.pdf"
 
@@ -296,7 +359,7 @@ items:
     authors: ["N. Seedat"]
     venue: "ICML 2020 UDL Workshop & KDD 2020 Applied Data Science for Healthcare (Spotlight)"
     year: 2020
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://arxiv.org/abs/2007.03995"
 
@@ -304,11 +367,13 @@ items:
     authors: ["N. Seedat", "C. Kanan"]
     venue: "NeurIPS 2019 4th Workshop on Bayesian Deep Learning"
     year: 2019
-    topic: "Uncertainty Quantification"
+    topic: "Trustworthy ML & Uncertainty Estimation"
     links:
       paper: "https://arxiv.org/abs/1911.00104"
 
-  # === Synthetic Data =====================================================
+
+  # === Synthetic Data ======================================================
+
   - title: "Curated LLM: Synergy of LLMs and Data Curation for tabular augmentation in ultra low-data regimes"
     authors: ["N. Seedat*", "N. Huynh*", "B. van Breugel", "M. van der Schaar"]
     venue: "ICML 2024"
@@ -333,12 +398,14 @@ items:
     links:
       paper: "https://arxiv.org/pdf/2310.16981.pdf"
 
-  # === Healthcare & Responsible AI ========================================
+
+  # === AI for Healthcare & Biomedical Engineering ==========================
+
   - title: "Tables2Traces: Distilling Tabular Data to Improve LLM Reasoning in Healthcare"
     authors: ["M. Werling", "N. Seedat", "J. Liu", "L. Grønlykke", "C. U. Niemann", "M. van der Schaar", "R. Agius"]
     venue: "EurIPS 2025 Workshop on AI for Tabular Data"
     year: 2025
-    topic: "Healthcare & Responsible AI"
+    topic: "AI for Healthcare & Biomedical Engineering"
     links:
       paper: "https://openreview.net/forum?id=zbC9HXAxaw"
 
@@ -347,7 +414,7 @@ items:
     venue: "arXiv"
     year: 2025
     preprint: true
-    topic: "Healthcare & Responsible AI"
+    topic: "AI for Healthcare & Biomedical Engineering"
     links:
       paper: "https://arxiv.org/abs/2411.13163"
 
@@ -355,19 +422,102 @@ items:
     authors: ["L. Goetz*", "N. Seedat*", "R. Vandersluis", "M. van der Schaar"]
     venue: "npj Digital Medicine, 2024"
     year: 2024
-    topic: "Healthcare & Responsible AI"
+    topic: "AI for Healthcare & Biomedical Engineering"
     links:
       paper: "https://www.nature.com/articles/s41746-024-01127-3"
+
+  - title: "U-PASS: An uncertainty-guided deep learning pipeline for automated sleep staging"
+    authors: ["E. Heremans", "N. Seedat", "B. Buyse", "D. Testelmans", "M. van der Schaar", "M. De Vos"]
+    venue: "Computers in Biology and Medicine, Vol 171, 2024"
+    year: 2024
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://www.sciencedirect.com/science/article/pii/S0010482524002890"
+
+  - title: "Automated remote sleep monitoring needs uncertainty quantification"
+    authors: ["E. Heremans", "N. Seedat", "B. Buyse", "D. Testelmans", "M. van der Schaar", "M. De Vos"]
+    venue: "Journal of Sleep Research, 2024"
+    year: 2024
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://doi.org/10.1111/jsr.14300"
 
   - title: "Modeling Disagreement in Automatic Data Labelling for Semi-Supervised Learning in Clinical Natural Language Processing"
     authors: ["H. Liu*", "N. Seedat*", "J. Ive"]
     venue: "Frontiers in Artificial Intelligence, 2024"
     year: 2024
-    topic: "Healthcare & Responsible AI"
+    topic: "AI for Healthcare & Biomedical Engineering"
     links:
       paper: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1374162/full"
 
-  # === Causal Inference & Structure Learning ==============================
+
+  - title: "Machine learning discrimination of Parkinson's Disease stages from walker-mounted sensors data"
+    authors: ["N. Seedat", "V. Aharonson"]
+    venue: "Explainable AI in Healthcare and Medicine (Springer) & AAAI 2020 Workshop on Health Intelligence"
+    year: 2020
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4"
+
+  - title: "Automated machine vision enabled detection of movement disorders from hand drawn spirals"
+    authors: ["N. Seedat", "V. Aharonson"]
+    venue: "IEEE International Conference on Healthcare Informatics (ICHI), 2020"
+    year: 2020
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/9374333"
+
+  - title: "Automated and interpretable m-health discrimination of vocal cord pathology enabled by machine learning"
+    authors: ["N. Seedat", "V. Aharonson", "Y. Hamzany"]
+    venue: "IEEE Asia-Pacific Conference on Computer Science and Data Engineering, 2020"
+    year: 2020
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/9411529"
+
+  - title: "Automated stage discrimination of Parkinson's disease"
+    authors: ["V. Aharonson", "N. Seedat", "S. Korn", "S. Baer", "M. Postema", "G. Yahalom"]
+    venue: "BIO Integration Journal, 2020"
+    year: 2020
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://bio-integration.org/wp-content/uploads/2020/06/bioi20200006.pdf"
+
+  - title: "MCU-Net: A framework towards uncertainty representations for decision support system patient referrals in healthcare contexts"
+    authors: ["N. Seedat"]
+    venue: "ICML 2020 UDL Workshop & KDD 2020 Applied Data Science for Healthcare (Spotlight)"
+    year: 2020
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://arxiv.org/abs/2007.03995"
+
+  - title: "A comparison of footfall detection algorithms from walker mounted sensors data"
+    authors: ["N. Seedat", "D. Beder", "V. Aharonson", "S. Dubowsky"]
+    venue: "IEEE EBBT, 2018"
+    year: 2018
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/8391456"
+
+  - title: "Feasibility of an instrumented walker to quantify treatment effects on Parkinson's patient gait"
+    authors: ["V. Aharonson", "N. Seedat", "I. Schlesinger", "A. McDonald", "S. Dubowsky", "A. Korczyn"]
+    venue: "IEEE EBBT, 2018"
+    year: 2018
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/8391457"
+
+  - title: "Custom force sensor and sensory feedback system to enable grip control of a robotic prosthetic hand"
+    authors: ["N. Seedat", "I. Mohamed", "A.K. Mohamed"]
+    venue: "IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob), 2018"
+    year: 2018
+    topic: "AI for Healthcare & Biomedical Engineering"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/8487948"
+
+
+  # === Causal Inference & Structure Learning ===============================
+
   - title: "Differentiable and transportable structure learning"
     authors: ["J. Berrevoets", "N. Seedat", "F. Imrie", "M. van der Schaar"]
     venue: "ICML 2023"
@@ -384,80 +534,9 @@ items:
     links:
       paper: "https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf"
 
-  # === Biomedical Signal Processing & Applied ML ==========================
-  - title: "PEMS: Custom Neural Machine Translation System—Making subtitling of Portuguese TV shows and movies on the African continent work"
-    authors: ["N. Seedat", "N. Sen", "N. Naicker", "K. Sharma", "A. Almeida", "G. Kalyansundaram", "B. Mkwanazi", "M. Velayudan"]
-    venue: "IEEE ICECET, 2021"
-    year: 2021
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/9698428"
 
-  - title: "Machine learning discrimination of Parkinson's Disease stages from walker-mounted sensors data"
-    authors: ["N. Seedat", "V. Aharonson"]
-    venue: "Explainable AI in Healthcare and Medicine (Springer) & AAAI 2020 Workshop on Health Intelligence"
-    year: 2020
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://link.springer.com/chapter/10.1007/978-3-030-53352-6_4"
+  # === Tutorials ===========================================================
 
-  - title: "Automated machine vision enabled detection of movement disorders from hand drawn spirals"
-    authors: ["N. Seedat", "V. Aharonson"]
-    venue: "IEEE International Conference on Healthcare Informatics (ICHI), 2020"
-    year: 2020
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/9374333"
-
-  - title: "Automated and interpretable m-health discrimination of vocal cord pathology enabled by machine learning"
-    authors: ["N. Seedat", "V. Aharonson", "Y. Hamzany"]
-    venue: "IEEE Asia-Pacific Conference on Computer Science and Data Engineering, 2020"
-    year: 2020
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/9411529"
-
-  - title: "Automated stage discrimination of Parkinson's disease"
-    authors: ["V. Aharonson", "N. Seedat", "S. Korn", "S. Baer", "M. Postema", "G. Yahalom"]
-    venue: "BIO Integration Journal, 2020"
-    year: 2020
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://bio-integration.org/wp-content/uploads/2020/06/bioi20200006.pdf"
-
-  - title: "A comparison of footfall detection algorithms from walker mounted sensors data"
-    authors: ["N. Seedat", "D. Beder", "V. Aharonson", "S. Dubowsky"]
-    venue: "IEEE EBBT, 2018"
-    year: 2018
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/8391456"
-
-  - title: "Feasibility of an instrumented walker to quantify treatment effects on Parkinson's patient gait"
-    authors: ["V. Aharonson", "N. Seedat", "I. Schlesinger", "A. McDonald", "S. Dubowsky", "A. Korczyn"]
-    venue: "IEEE EBBT, 2018"
-    year: 2018
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/8391457"
-
-  - title: "Custom force sensor and sensory feedback system to enable grip control of a robotic prosthetic hand"
-    authors: ["N. Seedat", "I. Mohamed", "A.K. Mohamed"]
-    venue: "IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob), 2018"
-    year: 2018
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://ieeexplore.ieee.org/document/8487948"
-
-  - title: "Quadcopter Control using Intelligent Control Methods"
-    authors: ["N. Seedat", "A. van Wyk"]
-    venue: "Deep Learning Indaba, 2017"
-    year: 2017
-    topic: "Biomedical Signal Processing & Applied ML"
-    links:
-      paper: "https://www.researchgate.net/publication/325999949_Quadcopter_Control_using_Intelligent_Control_Methods"
-
-  # === Tutorials ==========================================================
   - title: "Clinical AI in the real-world: From Data-centric AI to Dynamic Learning"
     authors: ["N. Seedat", "C. Gonzalez", "M. van der Schaar"]
     venue: "MICCAI 2024 Tutorial"
@@ -479,10 +558,11 @@ items:
     venue: "IJCAI 2023 Tutorial"
     year: 2023
     topic: "Tutorials"
-
-  # === Thesis =============================================================
     links:
       website: "https://ijcai-23.org/tutorials/"
+
+
+  # === Thesis ==============================================================
 
   - title: "Data-Centric AI for Reliable and Trustworthy Machine Learning"
     authors: ["N. Seedat"]

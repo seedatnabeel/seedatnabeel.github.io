@@ -35,14 +35,14 @@ disableKinds = ['taxonomy', 'term']
   # onwards are LLM evaluation / agents work. Generic "Large Language Models"
   # was dropped as redundant once the three LLM-specific entries exist.
   interests = [
+    "Foundation Models",
     "LLM Evaluation",
-    "LLM Agents & Verification",
-    "LLM Reasoning",
+    "LLM Agents & Reasoning",
     "Data-Centric AI",
-    "Responsible AI & Alignment",
-    "Uncertainty Quantification",
     "Synthetic Data",
-  ]
+    "Trustworthy & Responsible AI",
+    "AI for Science & Healthcare",
+]
 
 # --- sub-tables: nothing above this line may move below it -------------------
 

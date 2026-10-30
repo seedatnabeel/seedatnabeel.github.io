@@ -10,11 +10,11 @@ disableKinds = ['taxonomy', 'term']
 # NOTE: every plain key must stay above the [params.*] sub-tables below.
 # In TOML, keys after a sub-table header belong to that table, not to [params].
 [params]
-  description = "Lead Research Scientist at Thomson Reuters Foundational Research, leading LLM Evaluations for Thomson-1. Research on LLM evaluation, verification and agents."
+  description = "Member of Technical Staff at Lila Sciences, working on LLM post-training and frontier capabilities towards scientific superintelligence. Honorary Research Associate at Imperial College London. Research on LLM agents, evaluations, reinforcement learning and data-centric AI."
 
-  # Used for JSON-LD jobTitle and the OG image alt text. Only rendered under
-  # your name in the header if no affiliations are set below.
-  role = "Lead Research Scientist, Thomson Reuters Foundational Research"
+  # Used for JSON-LD jobTitle and the OG image alt text.
+  # Only rendered under your name if no affiliations are set below.
+  role = "Member of Technical Staff, Lila Sciences"
 
   email = "seedatnabeel@gmail.com"
   photo = "nabeel.jpg"
@@ -26,51 +26,52 @@ disableKinds = ['taxonomy', 'term']
   # Number of news items shown before the "Show earlier news" expander.
   newsRecent = 8
 
-  # Drop a PDF in static/ and set this to make the CV link appear in the nav
-  # and footer. Left unset for now, so no broken link is rendered.
+  # Drop a PDF in static/ and set this to make the CV link appear.
   # cv = "/nabeel-seedat-cv.pdf"
 
-  # Shown as a highlighted block under the bio. Ordered to match where the
-  # recent publication record actually sits: 8 of the 12 papers from 2025
-  # onwards are LLM evaluation / agents work. Generic "Large Language Models"
-  # was dropped as redundant once the three LLM-specific entries exist.
+  # Research interests displayed under the bio.
   interests = [
-    "Foundation Models",
-    "LLM Evaluation",
+    "Foundation Models & Post-Training",
     "LLM Agents & Reasoning",
-    "Data-Centric AI",
-    "Synthetic Data",
+    "LLM Evaluation & Verification",
+    "Reinforcement Learning",
+    "Data-Centric AI & Synthetic Data",
+    "AI for Scientific Discovery",
     "Trustworthy & Responsible AI",
-    "AI for Science & Healthcare",
-]
+  ]
 
 # --- sub-tables: nothing above this line may move below it -------------------
 
 # Affiliations row, shown under your name in the header.
 #
-# TODO: you mentioned "two affiliations" — only Thomson Reuters is set. Add the
-# second block below (the snippet you pasted suggested Imperial College London
-# or the Oxford Internet Institute).
+# Lila Sciences is the primary affiliation, followed by Imperial College London.
 #
-# `logo` is a filename in assets/images/. If that file is absent, a text badge
-# using `abbr` is rendered instead, so a missing logo never shows as broken.
+# Both affiliations use text badges rather than logos.
+# The `abbr` field controls the text displayed in each badge.
+
 [[params.affiliations]]
-  role = "Lead Research Scientist"
-  org = "Thomson Reuters Foundational Research"
-  abbr = "TR"
-  logo = "thomsonreuters.png"
-  url = "https://www.thomsonreuters.com/"
+  role = "Member of Technical Staff"
+  org = "Lila Sciences"
+  abbr = "Lila.ai"
+  url = "https://www.lila.ai/"
+
+[[params.affiliations]]
+  role = "Honorary Research Associate"
+  org = "Imperial College London"
+  abbr = "Imperial"
+  url = "https://www.imperial.ac.uk/computing/"
 
 # Featured talk, shown between the bio and the publications.
 #
-# `url` accepts a YouTube link (watch / youtu.be / embed / bare ID) or a
-# SlidesLive presentation link. Leave it empty and the section is skipped.
+# `url` accepts a YouTube link (watch / youtu.be / embed / bare ID)
+# or a SlidesLive presentation link.
+# Leave it empty and the section is skipped.
 #
-# `aspect` overrides the player shape. Defaults per provider: 16/9 for YouTube,
-# 500/199 for SlidesLive (their slides-plus-speaker player is much wider).
+# `aspect` overrides the player shape. Defaults per provider:
+# 16/9 for YouTube, 500/199 for SlidesLive.
 #
-# `poster` + `link` render a click-through card instead of an inline player —
-# used when a provider refuses to be embedded on other domains.
+# `poster` + `link` render a click-through card instead of an inline player.
+
 [params.video]
   heading = "Featured talk"
   url = "https://slideslive.com/39013504"
@@ -82,36 +83,45 @@ disableKinds = ['taxonomy', 'term']
   provider = "SlidesLive"
 
 # Shown in the header and footer, in this order.
+
 [[params.social]]
   name = "twitter"
   url = "https://twitter.com/NabeelSeedat01"
+
 [[params.social]]
   name = "scholar"
   url = "https://scholar.google.com/citations?hl=en&user=nUZG1SEAAAAJ"
+
 [[params.social]]
   name = "github"
   url = "https://github.com/seedatnabeel"
+
 [[params.social]]
   name = "linkedin"
   url = "https://linkedin.com/in/nabeel-seedat"
 
 # Anchor nav. Weights control order.
+
 [[menu.main]]
   name = "About"
   url = "#about"
   weight = 1
+
 [[menu.main]]
   name = "Publications"
   url = "#publications"
   weight = 2
+
 [[menu.main]]
   name = "Awards"
   url = "#awards"
   weight = 3
+
 [[menu.main]]
   name = "News"
   url = "#news"
   weight = 4
+
 [[menu.main]]
   name = "Talks"
   url = "#talks"

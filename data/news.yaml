@@ -5,6 +5,10 @@
 # "Show earlier news" expander.
 
 items:
+  - date: "Sept 2027"
+    body: |-
+      🔬 Excited to have joined [**Lila Sciences**](https://www.lila.ai/) as a **Member of Technical Staff**, working on **LLM post-training and frontier capabilities** towards building **scientific superintelligence**!
+
   - date: "Aug 2026"
     body: |-
       🚀 **Thomson-1** is here! Really proud of what the team has built. We show how institutions can take large open-weight models and specialize them for a domain, without losing general capabilities. Thomson-1 benchmarks competitively with the frontier, including **Claude Opus 4.8** and ahead of **GPT-5.5**, **Claude Sonnet 5** and **Gemini 3.1 Pro** on legal and general-domain evaluations, at a fraction of the size and training cost. I lead **LLM Evaluations** for the model. Read the [tech report](https://arxiv.org/abs/2608.27147).
@@ -12,7 +16,11 @@ items:
   - date: "July 2026"
     body: |-
       Five papers at [**ICML 2026**](https://icml.cc/) 🥳 2 on the main track and 3 workshops covering diverse areas spanning AI Agent Verification, LLM Alignment, AI for scientific discovery and new benchmarks for Legal AI.
-
+  
+  - date: "June 2026"
+    body: |-
+      🎓 Excited to be joining the **Frontier AI Lab** in the Department of Computing at [**Imperial College London**](https://www.imperial.ac.uk/) as an **Honorary Research Associate**!
+  
   - date: "April 2026"
     body: |-
       🏆 **Best Paper** at the [**ICLR 2026**](https://iclr.cc/) AIWILD workshop for **Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification** --- also accepted to ICML 2026.

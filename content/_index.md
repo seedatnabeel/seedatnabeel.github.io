@@ -3,7 +3,7 @@ title: "Nabeel Seedat"
 description: "Nabeel Seedat"
 ---
 
-Hi 👋 I am a **Member of Technical Staff at [Lila Sciences](https://www.lila.ai/)**, where I work on **LLM post-training and frontier capabilities** towards building **scientific superintelligence** 🔬. I am also an **Honorary Research Associate at [Imperial College London](https://www.imperial.ac.uk/)**, in the Department of Computing.
+Hi 👋 I am a **Member of Technical Staff (AI Research) at [Lila Sciences](https://www.lila.ai/)**, where I work on **LLM post-training and frontier capabilities** towards building **scientific superintelligence** 🔬. I am also an **Honorary Research Associate at [Imperial College London](https://www.imperial.ac.uk/)**, in the Department of Computing.
 
 My research interests sit at the intersection of **LLMs, agentic systems, synthetic data and environments & evaluations**. In particular, I'm interested in how we develop and evaluate increasingly capable AI systems that can reason, experiment in the real world, and make scientific discoveries. A central theme throughout my work is the data-centric perspective: what we train and evaluate on fundamentally shapes what models can learn, how they generalise, and ultimately what we can trust 🦾.
 
